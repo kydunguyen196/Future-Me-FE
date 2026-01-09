@@ -1,0 +1,514 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+
+
+/* Reset to ensure full width display */
+* {
+  /* margin: 0;
+  padding: 0; */
+  box-sizing: border-box;
+}
+
+body {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  min-width: 100vw;
+  min-height: 100vh;
+
+  /* Light mode styles (default) */
+  @apply bg-white text-gray-900 transition-colors duration-200 ease-in-out;
+}
+
+/* Dark mode styles applied when .dark class is present */
+.dark body {
+  @apply bg-gray-950 text-gray-100;
+}
+
+html, body, #root {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  width: 100%;
+}
+
+/* Override any VSCode or other container styles */
+.vsc-initialized {
+  width: 100% !important;
+  max-width: 100% !important;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+
+a:hover {
+  color: #535bf2;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  cursor: pointer;
+  transition: border-color 0.25s;
+  outline: none;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible,
+button:active {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+/* Additional styles to ensure no borders on any button interactions */
+button:focus-visible {
+  outline: none !important;
+  border: none !important;
+}
+
+/* Override any default browser button styles */
+button,
+input[type="button"],
+input[type="submit"],
+input[type="reset"] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+button:focus,
+button:active,
+button:focus-visible {
+  outline: none !important;
+  box-shadow: none !important;
+  border: none !important;
+}
+
+@media (prefers-color-scheme: light) {
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
+
+@theme inline {
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-chart-1: var(--chart-1);
+  --color-chart-2: var(--chart-2);
+  --color-chart-3: var(--chart-3);
+  --color-chart-4: var(--chart-4);
+  --color-chart-5: var(--chart-5);
+  --color-sidebar: var(--sidebar);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-ring: var(--sidebar-ring);
+}
+
+:root {
+  --radius: 0.625rem;
+  --background: #ffffff; /* Thay oklch(1 0 0) bằng hex */
+  --foreground: #1f2937; /* Thay oklch(0.145 0 0) */
+  --card: #ffffff; /* Thay oklch(1 0 0) */
+  --card-foreground: #1f2937; /* Thay oklch(0.145 0 0) */
+  --popover: #ffffff; /* Thay oklch(1 0 0) */
+  --popover-foreground: #1f2937; /* Thay oklch(0.145 0 0) */
+  --primary: #2563eb; /* Thay oklch(0.205 0 0) */
+  --primary-foreground: #ffffff; /* Thay oklch(0.985 0 0) */
+  --secondary: #e5e7eb; /* Thay oklch(0.97 0 0) */
+  --secondary-foreground: #374151; /* Thay oklch(0.205 0 0) */
+  --muted: #f3f4f6; /* Thay oklch(0.97 0 0) */
+  --muted-foreground: #6b7280; /* Thay oklch(0.556 0 0) */
+  --accent: #f3f4f6; /* Thay oklch(0.97 0 0) */
+  --accent-foreground: #374151; /* Thay oklch(0.205 0 0) */
+  --destructive: #dc2626; /* Thay oklch(0.577 0.245 27.325) */
+  --border: #e5e7eb; /* Thay oklch(0.922 0 0) */
+  --input: #e5e7eb; /* Thay oklch(0.922 0 0) */
+  --ring: #3b82f6; /* Thay oklch(0.708 0 0) */
+  --chart-1: #10b981; /* Thay oklch(0.646 0.222 41.116) */
+  --chart-2: #3b82f6; /* Thay oklch(0.6 0.118 184.704) */
+  --chart-3: #9333ea; /* Thay oklch(0.398 0.07 227.392) */
+  --chart-4: #f59e0b; /* Thay oklch(0.828 0.189 84.429) */
+  --chart-5: #ef4444; /* Thay oklch(0.769 0.188 70.08) */
+  --sidebar: #ffffff; /* Thay oklch(0.985 0 0) */
+  --sidebar-foreground: #1f2937; /* Thay oklch(0.145 0 0) */
+  --sidebar-primary: #2563eb; /* Thay oklch(0.205 0 0) */
+  --sidebar-primary-foreground: #ffffff; /* Thay oklch(0.985 0 0) */
+  --sidebar-accent: #e5e7eb; /* Thay oklch(0.97 0 0) */
+  --sidebar-accent-foreground: #374151; /* Thay oklch(0.205 0 0) */
+  --sidebar-border: #e5e7eb; /* Thay oklch(0.922 0 0) */
+  --sidebar-ring: #3b82f6; /* Thay oklch(0.708 0 0) */
+}
+
+.dark {
+  --background: #111827; /* Thay oklch(0.145 0 0) */
+  --foreground: #f9fafb; /* Thay oklch(0.985 0 0) */
+  --card: #1f2937; /* Thay oklch(0.205 0 0) */
+  --card-foreground: #f9fafb; /* Thay oklch(0.985 0 0) */
+  --popover: #1f2937; /* Thay oklch(0.205 0 0) */
+  --popover-foreground: #f9fafb; /* Thay oklch(0.985 0 0) */
+  --primary: #60a5fa; /* Thay oklch(0.922 0 0) */
+  --primary-foreground: #1f2937; /* Thay oklch(0.205 0 0) */
+  --secondary: #374151; /* Thay oklch(0.269 0 0) */
+  --secondary-foreground: #f9fafb; /* Thay oklch(0.985 0 0) */
+  --muted: #374151; /* Thay oklch(0.269 0 0) */
+  --muted-foreground: #9ca3af; /* Thay oklch(0.708 0 0) */
+  --accent: #374151; /* Thay oklch(0.269 0 0) */
+  --accent-foreground: #f9fafb; /* Thay oklch(0.985 0 0) */
+  --destructive: #f87171; /* Thay oklch(0.704 0.191 22.216) */
+  --border: rgba(255, 255, 255, 0.1); /* Thay oklch(1 0 0 / 10%) */
+  --input: rgba(255, 255, 255, 0.15); /* Thay oklch(1 0 0 / 15%) */
+  --ring: #6b7280; /* Thay oklch(0.556 0 0) */
+  --chart-1: #6ee7b7; /* Thay oklch(0.488 0.243 264.376) */
+  --chart-2: #93c5fd; /* Thay oklch(0.696 0.17 162.48) */
+  --chart-3: #ef4444; /* Thay oklch(0.769 0.188 70.08) */
+  --chart-4: #a3bffa; /* Thay oklch(0.627 0.265 303.9) */
+  --chart-5: #67e8f9; /* Thay oklch(0.645 0.246 16.439) */
+  --sidebar: #1f2937; /* Thay oklch(0.205 0 0) */
+  --sidebar-foreground: #f9fafb; /* Thay oklch(0.985 0 0) */
+  --sidebar-primary: #6ee7b7; /* Thay oklch(0.488 0.243 264.376) */
+  --sidebar-primary-foreground: #f9fafb; /* Thay oklch(0.985 0 0) */
+  --sidebar-accent: #374151; /* Thay oklch(0.269 0 0) */
+  --sidebar-accent-foreground: #f9fafb; /* Thay oklch(0.985 0 0) */
+  --sidebar-border: rgba(255, 255, 255, 0.1); /* Thay oklch(1 0 0 / 10%) */
+  --sidebar-ring: #6b7280; /* Thay oklch(0.556 0 0) */
+}
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+/* Custom scrollbar styles */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #666;
+}
+
+/* For dark mode */
+.dark ::-webkit-scrollbar-track {
+  background: #333;
+}
+
+.dark ::-webkit-scrollbar-thumb {
+  background: #666;
+}
+
+.dark ::-webkit-scrollbar-thumb:hover {
+  background-color: #6b7280;
+}
+
+/* Rainbow Button Animation */
+@keyframes rainbow {
+  0%, 100% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+}
+
+.animate-rainbow {
+  animation: rainbow 3s ease-in-out infinite;
+}
+
+/* LatexRenderer styles for better question text display */
+.latex-block-container,
+.latex-inline-container {
+  text-align: left !important;
+  direction: ltr;
+}
+
+.latex-block-container {
+  margin: 1rem 0;
+  padding: 0.5rem 0;
+  font-size: 24px; /* Large font size for question titles */
+  font-weight: 500;
+  line-height: 1.6;
+}
+
+.latex-inline-container {
+  display: inline-block;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.math-module-content {
+  font-family: 'Times New Roman', serif;
+  font-size: 24px !important; /* Even larger for math modules */
+}
+
+/* Ensure LaTeX blocks are left-aligned and properly sized */
+.latex-block-container .katex-display {
+  text-align: left !important;
+  margin: 0.75em 0;
+  font-size: 1.1em; /* Slightly larger for math expressions */
+}
+
+.latex-inline-container .katex {
+  font-size: 1.1em; /* Larger inline math */
+}
+
+/* Style for HTML content within questions */
+.latex-block-container p,
+.latex-inline-container p {
+  margin-bottom: 0.75rem;
+  text-align: left;
+  font-size: inherit;
+  line-height: 1.6;
+}
+
+.latex-block-container br,
+.latex-inline-container br {
+  line-height: 1.6;
+}
+
+.latex-block-container strong,
+.latex-inline-container strong {
+  font-weight: 600;
+}
+
+.latex-block-container em,
+.latex-inline-container em {
+  font-style: italic;
+}
+
+.latex-block-container u,
+.latex-inline-container u {
+  text-decoration: underline;
+}
+
+/* Special styling for test passage columns */
+.test-passage-column .latex-block-container {
+  font-size: 24px;
+  line-height: 1.7;
+  margin-bottom: 1.5rem;
+}
+
+/* Responsive font sizing for smaller screens */
+@media (max-width: 768px) {
+  .latex-block-container {
+    font-size: 20px;
+  }
+  
+  .latex-inline-container {
+    font-size: 18px;
+  }
+  
+  .math-module-content {
+    font-size: 20px !important;
+  }
+}
+
+/* Ensure tables display properly */
+.table-fixed {
+  table-layout: fixed;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table th,
+table td {
+  position: relative;
+  border: none;
+}
+
+/* Ensure table cells don't overflow into each other */
+table td > div {
+  max-width: 100%;
+}
+
+/* Fix for truncate in table cells */
+table .truncate {
+  display: block;
+  max-width: 100%;
+}
+
+/* Marquee animations for testimonials */
+@keyframes marquee {
+  0% { transform: translateX(0%); }
+  100% { transform: translateX(-100%); }
+}
+
+@keyframes marquee-reverse {
+  0% { transform: translateX(-100%); }
+  100% { transform: translateX(0%); }
+}
+
+.animate-marquee {
+  animation: marquee linear infinite;
+}
+
+.animate-marquee-reverse {
+  animation: marquee-reverse linear infinite;
+}
+
+/* Line clamp utilities for text truncation */
+.line-clamp-1 {
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.line-clamp-2 {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.line-clamp-3 {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.line-clamp-4 {
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* Ensure LaTeX content in tables renders properly */
+.line-clamp-3 .latex-inline,
+.line-clamp-3 .latex-block {
+  display: inline !important;
+}
+
+.line-clamp-3 .katex-display {
+  display: inline !important;
+  margin: 0 !important;
+}
+
+/* Gradient animation for scroll progress */
+@keyframes gradient-x {
+  0%, 100% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+}
+
+.animate-gradient-x {
+  animation: gradient-x 3s ease infinite;
+}
+
+/* Border beam animation for Magic UI */
+@keyframes border-beam {
+  0% {
+    offset-distance: 0%;
+  }
+  100% {
+    offset-distance: 100%;
+  }
+}
+
+.animate-border-beam {
+  animation: border-beam linear infinite;
+}
+
+/* Blob animations for login page background */
+@keyframes blob {
+  0% {
+    transform: translate(0px, 0px) scale(1);
+  }
+  33% {
+    transform: translate(30px, -50px) scale(1.1);
+  }
+  66% {
+    transform: translate(-20px, 20px) scale(0.9);
+  }
+  100% {
+    transform: translate(0px, 0px) scale(1);
+  }
+}
+
+.animate-blob {
+  animation: blob 7s infinite;
+}
+
+.animation-delay-2000 {
+  animation-delay: 2s;
+}
+
+.animation-delay-4000 {
+  animation-delay: 4s;
+}

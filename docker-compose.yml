@@ -1,0 +1,19 @@
+services:
+  frontend:
+    image: futureme-frontend
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        VITE_BACKEND_API: https://futureme.com.vn/api/v1
+        VITE_ASSETS_URL: https://testooslab105.oss-cn-hongkong.aliyuncs.com
+        VITE_GOOGLE_CLIENT_ID: 428189145313-onrqmp9gv5vcn3tojk6kdgkk5hc9gld7.apps.googleusercontent.com
+        VITE_GOOGLE_REDIRECT_URI: http://localhost:5173/google-callback
+    ports:
+      - "4173:4173"
+    restart: unless-stopped
+    environment:
+      VITE_BACKEND_API: https://futureme.com.vn/api/v1
+      VITE_ASSETS_URL: https://testooslab105.oss-cn-hongkong.aliyuncs.com
+      VITE_GOOGLE_CLIENT_ID: 428189145313-onrqmp9gv5vcn3tojk6kdgkk5hc9gld7.apps.googleusercontent.com
+      VITE_GOOGLE_REDIRECT_URI: http://localhost:5173/google-callback

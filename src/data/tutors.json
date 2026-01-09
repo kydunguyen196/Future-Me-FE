@@ -1,0 +1,1239 @@
+[
+    {
+        "accountId": "acc001",
+        "firstName": "John",
+        "lastName": "Smith",
+        "dob": "1990-03-15",
+        "gender": "Male",
+        "avatar": "https://i.pinimg.com/736x/2a/07/36/2a0736b064272c56efdd8b482448964e.jpg",
+        "email": "john.smith@tutor.com",
+        "phoneNumber": "+1234567890",
+        "address": "123 Main St",
+        "province": "California",
+        "district": "Los Angeles",
+        "ward": "Downtown",
+        "educationLevel": "College",
+        "role": "TUTOR",
+        "created_at": "2023-01-10T10:00:00Z",
+        "updated_at": "2025-06-10T12:00:00Z",
+        "active": true,
+        "tutorData": {
+            "tutor_id": "tut001",
+            "account_id": "acc001",
+            "avatar": "https://i.pinimg.com/736x/2a/07/36/2a0736b064272c56efdd8b482448964e.jpg",
+            "video_link": "https://example.com/videos/john_intro.mp4",
+            "short_description": "Experienced math tutor with a passion for teaching algebra and calculus.",
+            "description": "John has over 10 years of experience teaching mathematics at various levels, from secondary school to college. He specializes in breaking down complex concepts into simple, understandable parts, ensuring students gain confidence and excel in their studies. His interactive teaching style incorporates real-world applications to make learning engaging and effective.",
+            "teaching_style": "Interactive, student-centered with real-world applications",
+            "rating": 4.8,
+            "major": "Mathematics",
+            "instituation": "University of California, Los Angeles",
+            "content": "Algebra, Calculus, Geometry, Trigonometry",
+            "total_students_taught": 150,
+            "total_lessons_taught": 1200,
+            "review_count": 85,
+            "tuition": 500000,
+            "certificates": [
+                {
+                    "qualification_id": "cert001",
+                    "tutor_id": "tut001",
+                    "qualification_name": "Bachelor of Science in Mathematics",
+                    "description": "Earned a BS in Mathematics with honors, focusing on advanced calculus and linear algebra.",
+                    "cert_image": "https://i.pinimg.com/736x/b2/e6/93/b2e6939721cbae66b8f2236523a10989.jpg",
+                    "is_verify": true
+                }
+            ],
+            "experiences": [
+                {
+                    "experience_id": "exp001",
+                    "tutor_id": "tut001",
+                    "experience_name": "Math Tutor at Learning Academy",
+                    "description": "Taught algebra and calculus to high school and college students, improving their grades by an average of 20%.",
+                    "start_year": "2015",
+                    "end_year": "2020"
+                }
+            ],
+            "educations": [
+                {
+                    "education_id": "edu1-1",
+                    "tutor_id": "tutor1",
+                    "education_name": "Bachelor of Mathematics - Harvard University",
+                    "description": "Focused on pure mathematics and statistics.",
+                    "start_year": "2010",
+                    "end_year": "2014"
+                },
+                {
+                    "education_id": "edu1-2",
+                    "tutor_id": "tutor1",
+                    "education_name": "Master of Education - Stanford University",
+                    "description": "Studied pedagogy and cognitive development in teens.",
+                    "start_year": "2015",
+                    "end_year": "2017"
+                },
+                {
+                    "education_id": "edu1-3",
+                    "tutor_id": "tutor1",
+                    "education_name": "PhD in Education Research - Stanford",
+                    "description": "Dissertation on adaptive learning models.",
+                    "start_year": "2018",
+                    "end_year": "2022"
+                }
+            ],
+            "courses": [
+                {
+                    "course_id": "course1-1",
+                    "tutor_id": "tutor1",
+                    "course_name": "Advanced Calculus Techniques",
+                    "introduction_video": "https: //example.com/videos/calculus_intro.mp4",
+                    "subject": "Mathematics",
+                    "price": 1500000,
+                    "course_level": "Advanced",
+                    "tag": "Calculus",
+                    "created_at": "2023-03-10T08: 30: 00Z",
+                    "updated_at": "2023-09-20T12: 00: 00Z",
+                    "deleted": false
+                },
+                {
+                    "course_id": "course1-2",
+                    "tutor_id": "tutor1",
+                    "course_name": "Statistics for Beginners",
+                    "introduction_video": "https: //example.com/videos/stats_intro.mp4",
+                    "subject": "Mathematics",
+                    "price": 1000000,
+                    "course_level": "Beginner",
+                    "tag": "Statistics",
+                    "created_at": "2022-11-01T10: 00: 00Z",
+                    "updated_at": "2023-01-05T08: 00: 00Z",
+                    "deleted": false
+                },
+                {
+                    "course_id": "course1-3",
+                    "tutor_id": "tutor1",
+                    "course_name": "High School Algebra Bootcamp",
+                    "introduction_video": "https: //example.com/videos/algebra.mp4",
+                    "subject": "Mathematics",
+                    "price": 1200000,
+                    "course_level": "Intermediate",
+                    "tag": "Algebra",
+                    "created_at": "2024-01-15T09: 15: 00Z",
+                    "updated_at": "2024-02-10T14: 20: 00Z",
+                    "deleted": false
+                }
+            ]
+        }
+    },
+    {
+        "accountId": "acc002",
+        "firstName": "Emily",
+        "lastName": "Johnson",
+        "dob": "1988-07-22",
+        "gender": "Female",
+        "avatar": "https://i.pinimg.com/736x/70/a2/36/70a236f90d2803f9da32d0558be75ba1.jpg",
+        "email": "emily.johnson@tutor.com",
+        "phoneNumber": "+1234567891",
+        "address": "456 Oak Ave",
+        "province": "New York",
+        "district": "Manhattan",
+        "ward": "Upper East Side",
+        "educationLevel": "College",
+        "role": "TUTOR",
+        "created_at": "2022-11-15T09:00:00Z",
+        "updated_at": "2025-06-12T14:00:00Z",
+        "active": true,
+        "tutorData": {
+            "tutor_id": "tut002",
+            "account_id": "acc002",
+            "avatar": "https://i.pinimg.com/736x/41/30/c1/4130c11b78253c340902529542ebb652.jpg",
+            "video_link": "https://example.com/videos/emily_intro.mp4",
+            "short_description": "Passionate English literature tutor with a focus on critical analysis.",
+            "description": "Emily is a dedicated tutor with a deep love for literature and language arts. With 8 years of teaching experience, she helps students develop strong analytical and writing skills. Her classes are engaging, with a focus on fostering critical thinking and a love for reading through interactive discussions and creative assignments.",
+            "teaching_style": "Discussion-based, encouraging critical thinking",
+            "rating": 4.9,
+            "major": "English Literature",
+            "instituation": "Columbia University",
+            "content": "English Literature, Creative Writing, Essay Writing",
+            "total_students_taught": 100,
+            "total_lessons_taught": 900,
+            "review_count": 70,
+            "tuition": 450000,
+            "certificates": [
+                {
+                    "qualification_id": "cert002",
+                    "tutor_id": "tut002",
+                    "qualification_name": "Master of Arts in English",
+                    "description": "Completed an MA in English Literature with a focus on Shakespearean studies.",
+                    "cert_image": "https://i.pinimg.com/736x/28/14/1b/28141bf9a5d81a56a7fac88b7924a13d.jpg",
+                    "is_verify": true
+                }
+            ],
+            "experiences": [
+                {
+                    "experience_id": "exp002",
+                    "tutor_id": "tut002",
+                    "experience_name": "English Tutor at Elite Prep",
+                    "description": "Guided students in essay writing and literary analysis, improving their writing scores significantly.",
+                    "start_year": "2017",
+                    "end_year": "2023"
+                }
+            ],
+            "educations": [
+                {
+                    "education_id": "edu2-1",
+                    "tutor_id": "tutor2",
+                    "education_name": "Bachelor of Computer Science - MIT",
+                    "description": "Specialized in AI and machine learning.",
+                    "start_year": "2012",
+                    "end_year": "2016"
+                },
+                {
+                    "education_id": "edu2-2",
+                    "tutor_id": "tutor2",
+                    "education_name": "Online Nanodegree - Udacity",
+                    "description": "Completed Deep Learning Nanodegree program.",
+                    "start_year": "2017",
+                    "end_year": "2018"
+                },
+                {
+                    "education_id": "edu2-3",
+                    "tutor_id": "tutor2",
+                    "education_name": "Teaching Certificate - Coursera",
+                    "description": "Certified for online teaching best practices.",
+                    "start_year": "2018",
+                    "end_year": "2019"
+                }
+            ],
+            "courses": [
+                {
+                    "course_id": "course2-1",
+                    "tutor_id": "tutor2",
+                    "course_name": "Python for Beginners",
+                    "introduction_video": "https: //example.com/videos/python_intro.mp4",
+                    "subject": "Computer Science",
+                    "price": 900000,
+                    "course_level": "Beginner",
+                    "tag": "Programming",
+                    "created_at": "2023-05-22T11: 00: 00Z",
+                    "updated_at": "2023-06-01T11: 30: 00Z",
+                    "deleted": false
+                },
+                {
+                    "course_id": "course2-2",
+                    "tutor_id": "tutor2",
+                    "course_name": "Machine Learning Fundamentals",
+                    "introduction_video": "https: //example.com/videos/ml_intro.mp4",
+                    "subject": "Computer Science",
+                    "price": 2000000,
+                    "course_level": "Advanced",
+                    "tag": "Machine Learning",
+                    "created_at": "2023-07-18T08: 00: 00Z",
+                    "updated_at": "2023-08-01T10: 30: 00Z",
+                    "deleted": false
+                },
+                {
+                    "course_id": "course2-3",
+                    "tutor_id": "tutor2",
+                    "course_name": "React & Frontend Basics",
+                    "introduction_video": "https: //example.com/videos/react_intro.mp4",
+                    "subject": "Web Development",
+                    "price": 1300000,
+                    "course_level": "Intermediate",
+                    "tag": "Frontend",
+                    "created_at": "2024-01-10T09: 00: 00Z",
+                    "updated_at": "2024-02-01T12: 00: 00Z",
+                    "deleted": false
+                },
+                {
+                    "course_id": "course2-4",
+                    "tutor_id": "tutor2",
+                    "course_name": "Data Structures in JS",
+                    "introduction_video": "https: //example.com/videos/ds_js.mp4",
+                    "subject": "Computer Science",
+                    "price": 1100000,
+                    "course_level": "Intermediate",
+                    "tag": "Data Structures",
+                    "created_at": "2024-04-05T10: 45: 00Z",
+                    "updated_at": "2024-05-01T11: 10: 00Z",
+                    "deleted": false
+                }
+            ]
+        }
+    },
+    {
+        "accountId": "acc003",
+        "firstName": "Michael",
+        "lastName": "Brown",
+        "dob": "1992-05-10",
+        "gender": "Male",
+        "avatar": "https://i.pinimg.com/736x/86/1c/fe/861cfe23634c8f762197b3671352b561.jpg",
+        "email": "michael.brown@tutor.com",
+        "phoneNumber": "+1234567892",
+        "address": "789 Pine Rd",
+        "province": "Texas",
+        "district": "Houston",
+        "ward": "Midtown",
+        "educationLevel": "College",
+        "role": "TUTOR",
+        "created_at": "2023-03-20T11:00:00Z",
+        "updated_at": "2025-06-11T10:00:00Z",
+        "active": true,
+        "tutorData": {
+            "tutor_id": "tut003",
+            "account_id": "acc003",
+            "avatar": "https://i.pinimg.com/736x/86/1c/fe/861cfe23634c8f762197b3671352b561.jpg",
+            "video_link": "https://example.com/videos/michael_intro.mp4",
+            "short_description": "Expert physics tutor specializing in mechanics and electromagnetism.",
+            "description": "Michael has a strong background in physics and over 7 years of tutoring experience. He is skilled at explaining complex scientific concepts in an accessible way, using visual aids and hands-on experiments to enhance understanding. His goal is to make physics exciting and approachable for all students.",
+            "teaching_style": "Hands-on, visual, and conceptual",
+            "rating": 4.7,
+            "major": "Physics",
+            "instituation": "University of Texas at Austin",
+            "content": "Mechanics, Electromagnetism, Thermodynamics",
+            "total_students_taught": 80,
+            "total_lessons_taught": 700,
+            "review_count": 60,
+            "tuition": 550000,
+            "certificates": [
+                {
+                    "qualification_id": "cert003",
+                    "tutor_id": "tut003",
+                    "qualification_name": "Bachelor of Science in Physics",
+                    "description": "Graduated with a BS in Physics, specializing in theoretical mechanics.",
+                    "cert_image": "https://i.pinimg.com/736x/4b/c4/4b/4bc44bc1a4953a590b6114b50239d7b4.jpg",
+                    "is_verify": true
+                }
+            ],
+            "experiences": [
+                {
+                    "experience_id": "exp003",
+                    "tutor_id": "tut003",
+                    "experience_name": "Physics Instructor at Science Hub",
+                    "description": "Taught high school and college students physics, focusing on problem-solving and lab work.",
+                    "start_year": "2018",
+                    "end_year": "2024"
+                }
+            ],
+            "educations": [
+                {
+                    "education_id": "edu3-1",
+                    "tutor_id": "tutor3",
+                    "education_name": "Bachelor of Physics - Oxford University",
+                    "description": "Graduated with honors in astrophysics.",
+                    "start_year": "2008",
+                    "end_year": "2012"
+                },
+                {
+                    "education_id": "edu3-2",
+                    "tutor_id": "tutor3",
+                    "education_name": "MSc in Data Science - Imperial College",
+                    "description": "Built predictive models for space observation data.",
+                    "start_year": "2013",
+                    "end_year": "2015"
+                },
+                {
+                    "education_id": "edu3-3",
+                    "tutor_id": "tutor3",
+                    "education_name": "PhD in Quantum Mechanics",
+                    "description": "Studied quantum entanglement applications.",
+                    "start_year": "2016",
+                    "end_year": "2020"
+                }
+            ],
+            "courses": [
+                {
+                    "course_id": "course3-1",
+                    "tutor_id": "tutor3",
+                    "course_name": "Intro to Classical Mechanics",
+                    "introduction_video": "https: //example.com/videos/mechanics_intro.mp4",
+                    "subject": "Physics",
+                    "price": 1000000,
+                    "course_level": "Beginner",
+                    "tag": "Mechanics",
+                    "created_at": "2022-08-20T13: 00: 00Z",
+                    "updated_at": "2023-01-10T13: 30: 00Z",
+                    "deleted": false
+                },
+                {
+                    "course_id": "course3-2",
+                    "tutor_id": "tutor3",
+                    "course_name": "Quantum Physics Crash Course",
+                    "introduction_video": "https: //example.com/videos/quantum_intro.mp4",
+                    "subject": "Physics",
+                    "price": 1800000,
+                    "course_level": "Advanced",
+                    "tag": "Quantum",
+                    "created_at": "2023-04-14T10: 00: 00Z",
+                    "updated_at": "2023-06-14T09: 45: 00Z",
+                    "deleted": false
+                },
+                {
+                    "course_id": "course3-3",
+                    "tutor_id": "tutor3",
+                    "course_name": "Thermodynamics Simplified",
+                    "introduction_video": "https: //example.com/videos/thermo_intro.mp4",
+                    "subject": "Physics",
+                    "price": 1300000,
+                    "course_level": "Intermediate",
+                    "tag": "Thermodynamics",
+                    "created_at": "2024-03-02T10: 00: 00Z",
+                    "updated_at": "2024-04-01T11: 30: 00Z",
+                    "deleted": false
+                }
+            ]
+        }
+    },
+    {
+        "accountId": "acc004",
+        "firstName": "Sarah",
+        "lastName": "Davis",
+        "dob": "1995-09-12",
+        "gender": "Female",
+        "avatar": "https://i.pinimg.com/736x/5e/ff/4d/5eff4d886bff6786aa84a8b1ba8c53fb.jpg",
+        "email": "sarah.davis@tutor.com",
+        "phoneNumber": "+1234567893",
+        "address": "101 Maple St",
+        "province": "Florida",
+        "district": "Miami",
+        "ward": "Brickell",
+        "educationLevel": "College",
+        "role": "TUTOR",
+        "created_at": "2023-02-10T08:00:00Z",
+        "updated_at": "2025-06-09T15:00:00Z",
+        "active": true,
+        "tutorData": {
+            "tutor_id": "tut004",
+            "account_id": "acc004",
+            "avatar": "https://i.pinimg.com/736x/5e/ff/4d/5eff4d886bff6786aa84a8b1ba8c53fb.jpg",
+            "video_link": "https://example.com/videos/sarah_intro.mp4",
+            "short_description": "Biology tutor with expertise in genetics and microbiology.",
+            "description": "Sarah is a passionate biology tutor with 6 years of experience teaching high school and college students. She excels at making complex topics like genetics and microbiology understandable through clear explanations and interactive activities. Her goal is to inspire a love for science and help students succeed academically.",
+            "teaching_style": "Interactive and inquiry-based",
+            "rating": 4.9,
+            "major": "Biology",
+            "instituation": "University of Miami",
+            "content": "Genetics, Microbiology, Biochemistry",
+            "total_students_taught": 90,
+            "total_lessons_taught": 800,
+            "review_count": 65,
+            "tuition": 480000,
+            "certificates": [
+                {
+                    "qualification_id": "cert004",
+                    "tutor_id": "tut004",
+                    "qualification_name": "Master of Science in Biology",
+                    "description": "Earned an MS in Biology with a focus on genetic research.",
+                    "cert_image": "https://i.pinimg.com/736x/99/37/a6/9937a6de56f9aaa980f9ab3f0f6ed18c.jpg",
+                    "is_verify": true
+                }
+            ],
+            "experiences": [
+                {
+                    "experience_id": "exp004",
+                    "tutor_id": "tut004",
+                    "experience_name": "Biology Tutor at BioLearn",
+                    "description": "Taught genetics and microbiology, helping students prepare for AP and college exams.",
+                    "start_year": "2019",
+                    "end_year": "2024"
+                }
+            ],
+            "educations": [
+                {
+                    "education_id": "edu4-1",
+                    "tutor_id": "tutor4",
+                    "education_name": "Bachelor of Chemistry - University of Tokyo",
+                    "description": "Research on organic compounds.",
+                    "start_year": "2011",
+                    "end_year": "2015"
+                },
+                {
+                    "education_id": "edu4-2",
+                    "tutor_id": "tutor4",
+                    "education_name": "Master of Teaching - Kyoto University",
+                    "description": "Focused on science curriculum design.",
+                    "start_year": "2016",
+                    "end_year": "2018"
+                },
+                {
+                    "education_id": "edu4-3",
+                    "tutor_id": "tutor4",
+                    "education_name": "Educational Leadership Training",
+                    "description": "Attended international seminar for STEM educators.",
+                    "start_year": "2019"
+                }
+            ],
+            "courses": [
+                {
+                    "course_id": "course4-1",
+                    "tutor_id": "tutor4",
+                    "course_name": "Organic Chemistry Essentials",
+                    "introduction_video": "https: //example.com/videos/organic_intro.mp4",
+                    "subject": "Chemistry",
+                    "price": 1400000,
+                    "course_level": "Intermediate",
+                    "tag": "Organic Chemistry",
+                    "created_at": "2023-09-10T08: 00: 00Z",
+                    "updated_at": "2023-10-01T09: 00: 00Z",
+                    "deleted": false
+                },
+                {
+                    "course_id": "course4-2",
+                    "tutor_id": "tutor4",
+                    "course_name": "Periodic Table & Elements",
+                    "introduction_video": "https: //example.com/videos/elements_intro.mp4",
+                    "subject": "Chemistry",
+                    "price": 800000,
+                    "course_level": "Beginner",
+                    "tag": "Inorganic",
+                    "created_at": "2023-11-20T12: 00: 00Z",
+                    "updated_at": "2024-01-01T14: 00: 00Z",
+                    "deleted": false
+                },
+                {
+                    "course_id": "course4-3",
+                    "tutor_id": "tutor4",
+                    "course_name": "High School Chemistry Lab",
+                    "introduction_video": "https: //example.com/videos/lab_intro.mp4",
+                    "subject": "Chemistry",
+                    "price": 900000,
+                    "course_level": "Beginner",
+                    "tag": "Lab",
+                    "created_at": "2024-02-15T09: 00: 00Z",
+                    "updated_at": "2024-03-01T09: 30: 00Z",
+                    "deleted": false
+                }
+            ]
+        }
+    },
+    {
+        "accountId": "acc005",
+        "firstName": "David",
+        "lastName": "Wilson",
+        "dob": "1987-11-30",
+        "gender": "Male",
+        "avatar": "https://i.pinimg.com/736x/e4/0d/68/e40d684088f05f5c87fd4a25749a7576.jpg",
+        "email": "david.wilson@tutor.com",
+        "phoneNumber": "+1234567894",
+        "address": "202 Cedar Ln",
+        "province": "Illinois",
+        "district": "Chicago",
+        "ward": "Lincoln Park",
+        "educationLevel": "College",
+        "role": "TUTOR",
+        "created_at": "2022-12-01T07:00:00Z",
+        "updated_at": "2025-06-08T11:00:00Z",
+        "active": true,
+        "tutorData": {
+            "tutor_id": "tut005",
+            "account_id": "acc005",
+            "avatar": "https://i.pinimg.com/736x/e4/0d/68/e40d684088f05f5c87fd4a25749a7576.jpg",
+            "video_link": "https://example.com/videos/david_intro.mp4",
+            "short_description": "History tutor specializing in world history and U.S. history.",
+            "description": "David has a passion for history and 9 years of tutoring experience. He makes historical events come alive through storytelling and critical analysis, helping students understand the context and significance of past events. His engaging lessons encourage students to connect history with modern-day issues.",
+            "teaching_style": "Storytelling and analytical",
+            "rating": 4.8,
+            "major": "History",
+            "instituation": "University of Chicago",
+            "content": "World History, U.S. History, European History",
+            "total_students_taught": 110,
+            "total_lessons_taught": 950,
+            "review_count": 75,
+            "tuition": 500000,
+            "certificates": [
+                {
+                    "qualification_id": "cert005",
+                    "tutor_id": "tut005",
+                    "qualification_name": "PhD in History",
+                    "description": "Completed a PhD in History with a focus on 20th-century global conflicts.",
+                    "cert_image": "https://i.pinimg.com/736x/54/29/af/5429afc2b6315c4169d1c80179b18b75.jpg",
+                    "is_verify": true
+                }
+            ],
+            "experiences": [
+                {
+                    "experience_id": "exp005",
+                    "tutor_id": "tut005",
+                    "experience_name": "History Tutor at Academic Excellence",
+                    "description": "Taught world and U.S. history to high school students, improving their essay-writing skills.",
+                    "start_year": "2016",
+                    "end_year": "2023"
+                }
+            ],
+            "educations": [
+                {
+                    "education_id": "edu5-1",
+                    "tutor_id": "tutor5",
+                    "education_name": "Bachelor of Literature - University of Melbourne",
+                    "description": "Major in English Literature and Creative Writing.",
+                    "start_year": "2007",
+                    "end_year": "2011"
+                },
+                {
+                    "education_id": "edu5-2",
+                    "tutor_id": "tutor5",
+                    "education_name": "TESOL Certification - Cambridge",
+                    "description": "Teaching English to Speakers of Other Languages.",
+                    "start_year": "2012",
+                    "end_year": "2012"
+                },
+                {
+                    "education_id": "edu5-3",
+                    "tutor_id": "tutor5",
+                    "education_name": "Master in Education - Monash University",
+                    "description": "Educational psychology and ESL methods.",
+                    "start_year": "2013",
+                    "end_year": "2015"
+                }
+            ],
+            "courses": [
+                {
+                    "course_id": "course5-1",
+                    "tutor_id": "tutor5",
+                    "course_name": "Introduction to Shakespeare",
+                    "introduction_video": "https: //example.com/videos/shakespeare.mp4",
+                    "subject": "Literature",
+                    "price": 950000,
+                    "course_level": "Beginner",
+                    "tag": "Shakespeare",
+                    "created_at": "2023-01-05T09: 00: 00Z",
+                    "updated_at": "2023-02-01T10: 00: 00Z",
+                    "deleted": false
+                },
+                {
+                    "course_id": "course5-2",
+                    "tutor_id": "tutor5",
+                    "course_name": "Creative Writing Mastery",
+                    "introduction_video": "https: //example.com/videos/writing_intro.mp4",
+                    "subject": "Writing",
+                    "price": 1600000,
+                    "course_level": "Advanced",
+                    "tag": "Writing",
+                    "created_at": "2023-06-10T13: 00: 00Z",
+                    "updated_at": "2023-07-01T15: 00: 00Z",
+                    "deleted": false
+                },
+                {
+                    "course_id": "course5-3",
+                    "tutor_id": "tutor5",
+                    "course_name": "Modern Poetry Explained",
+                    "introduction_video": "https: //example.com/videos/poetry.mp4",
+                    "subject": "Literature",
+                    "price": 1200000,
+                    "course_level": "Intermediate",
+                    "tag": "Poetry",
+                    "created_at": "2024-04-01T08: 00: 00Z",
+                    "updated_at": "2024-04-20T10: 00: 00Z",
+                    "deleted": false
+                }
+            ]
+        }
+    },
+    {
+        "accountId": "acc006",
+        "firstName": "Lisa",
+        "lastName": "Martinez",
+        "dob": "1993-04-18",
+        "gender": "Female",
+        "avatar": "https://i.pinimg.com/736x/13/31/60/133160744e00c03beb907cdfa49f2351.jpg",
+        "email": "lisa.martinez@tutor.com",
+        "phoneNumber": "+1234567895",
+        "address": "303 Elm St",
+        "province": "Washington",
+        "district": "Seattle",
+        "ward": "Capitol Hill",
+        "educationLevel": "College",
+        "role": "TUTOR",
+        "created_at": "2023-04-05T09:00:00Z",
+        "updated_at": "2025-06-07T13:00:00Z",
+        "active": true,
+        "tutorData": {
+            "tutor_id": "tut006",
+            "account_id": "acc006",
+            "avatar": "https://i.pinimg.com/736x/13/31/60/133160744e00c03beb907cdfa49f2351.jpg",
+            "video_link": "https://example.com/videos/lisa_intro.mp4",
+            "short_description": "Chemistry tutor with expertise in organic and inorganic chemistry.",
+            "description": "Lisa is an enthusiastic chemistry tutor with 7 years of experience. She specializes in making challenging topics like organic chemistry accessible through clear explanations and practical examples. Her teaching approach emphasizes problem-solving and real-world applications to spark curiosity in her students.",
+            "teaching_style": "Problem-solving and practical",
+            "rating": 4.7,
+            "major": "Chemistry",
+            "instituation": "University of Washington",
+            "content": "Organic Chemistry, Inorganic Chemistry, Physical Chemistry",
+            "total_students_taught": 85,
+            "total_lessons_taught": 750,
+            "review_count": 60,
+            "tuition": 520000,
+            "certificates": [
+                {
+                    "qualification_id": "cert006",
+                    "tutor_id": "tut006",
+                    "qualification_name": "Master of Science in Chemistry",
+                    "description": "Earned an MS in Chemistry with a focus on organic synthesis.",
+                    "cert_image": "https://i.pinimg.com/736x/92/fb/ae/92fbae2ba0e81da9e18af1249c47bf2c.jpg",
+                    "is_verify": true
+                }
+            ],
+            "experiences": [
+                {
+                    "experience_id": "exp006",
+                    "tutor_id": "tut006",
+                    "experience_name": "Chemistry Tutor at STEM Academy",
+                    "description": "Taught chemistry to college students, focusing on lab techniques and theoretical concepts.",
+                    "start_year": "2018",
+                    "end_year": "2024"
+                }
+            ],
+            "educations": [
+                {
+                    "education_id": "edu6-1",
+                    "tutor_id": "tutor6",
+                    "education_name": "Bachelor of Economics - LSE",
+                    "description": "Specialized in behavioral economics.",
+                    "start_year": "2010",
+                    "end_year": "2013"
+                },
+                {
+                    "education_id": "edu6-2",
+                    "tutor_id": "tutor6",
+                    "education_name": "Online Course - Financial Markets (Yale)",
+                    "description": "Completed an online course on financial market dynamics.",
+                    "start_year": "2014"
+                },
+                {
+                    "education_id": "edu6-3",
+                    "tutor_id": "tutor6",
+                    "education_name": "MBA - INSEAD",
+                    "description": "Focused on finance and organizational behavior.",
+                    "start_year": "2015",
+                    "end_year": "2017"
+                }
+            ],
+            "courses": [
+                {
+                    "course_id": "course6-1",
+                    "tutor_id": "tutor6",
+                    "course_name": "Introduction to Human Anatomy",
+                    "introduction_video": "https: //example.com/videos/anatomy_intro.mp4",
+                    "subject": "Biology",
+                    "price": 1100000,
+                    "course_level": "Beginner",
+                    "tag": "Anatomy",
+                    "created_at": "2023-03-12T09: 30: 00Z",
+                    "updated_at": "2023-03-20T10: 00: 00Z",
+                    "deleted": false
+                },
+                {
+                    "course_id": "course6-2",
+                    "tutor_id": "tutor6",
+                    "course_name": "Cell Biology Essentials",
+                    "introduction_video": "https: //example.com/videos/cell_biology.mp4",
+                    "subject": "Biology",
+                    "price": 1200005,
+                    "course_level": "Intermediate",
+                    "tag": "Cell Biology",
+                    "created_at": "2023-06-25T11: 00: 00Z",
+                    "updated_at": "2023-07-10T12: 00: 00Z",
+                    "deleted": false
+                },
+                {
+                    "course_id": "course6-3",
+                    "tutor_id": "tutor6",
+                    "course_name": "Genetics and DNA",
+                    "introduction_video": "https: //example.com/videos/genetics_intro.mp4",
+                    "subject": "Biology",
+                    "price": 1400000,
+                    "course_level": "Advanced",
+                    "tag": "Genetics",
+                    "created_at": "2024-02-14T13: 00: 00Z",
+                    "updated_at": "2024-03-01T13: 30: 00Z",
+                    "deleted": false
+                }
+            ]
+        }
+    },
+    {
+        "accountId": "acc007",
+        "firstName": "James",
+        "lastName": "Taylor",
+        "dob": "1990-08-25",
+        "gender": "Male",
+        "avatar": "https://i.pinimg.com/736x/41/30/c1/4130c11b78253c340902529542ebb652.jpg",
+        "email": "james.taylor@tutor.com",
+        "phoneNumber": "+1234567896",
+        "address": "404 Birch Ave",
+        "province": "Massachusetts",
+        "district": "Boston",
+        "ward": "Back Bay",
+        "educationLevel": "College",
+        "role": "TUTOR",
+        "created_at": "2023-05-10T10:00:00Z",
+        "updated_at": "2025-06-06T12:00:00Z",
+        "active": true,
+        "tutorData": {
+            "tutor_id": "tut007",
+            "account_id": "acc007",
+            "avatar": "https://i.pinimg.com/736x/41/30/c1/4130c11b78253c340902529542ebb652.jpg",
+            "video_link": "https://example.com/videos/james_intro.mp4",
+            "short_description": "Computer science tutor specializing in programming and algorithms.",
+            "description": "James is a skilled computer science tutor with 8 years of experience teaching programming and algorithms. He helps students master coding languages like Python and Java through hands-on projects and clear explanations. His goal is to build students' confidence in tackling complex coding challenges.",
+            "teaching_style": "Hands-on and project-based",
+            "rating": 4.9,
+            "major": "Computer Science",
+            "instituation": "MIT",
+            "content": "Python, Java, Data Structures, Algorithms",
+            "total_students_taught": 120,
+            "total_lessons_taught": 1000,
+            "review_count": 80,
+            "tuition": 600000,
+            "certificates": [
+                {
+                    "qualification_id": "cert007",
+                    "tutor_id": "tut007",
+                    "qualification_name": "Bachelor of Science in Computer Science",
+                    "description": "Graduated with a BS in Computer Science, specializing in algorithm design.",
+                    "cert_image": "https://i.pinimg.com/736x/a0/3f/49/a03f49c891c9e60cc133bc038b1654aa.jpg",
+                    "is_verify": true
+                }
+            ],
+            "experiences": [
+                {
+                    "experience_id": "exp007",
+                    "tutor_id": "tut007",
+                    "experience_name": "Coding Instructor at Tech Academy",
+                    "description": "Taught programming and algorithms to college students, focusing on practical applications.",
+                    "start_year": "2017",
+                    "end_year": "2023"
+                }
+            ],
+            "educations": [
+                {
+                    "education_id": "edu7-1",
+                    "tutor_id": "tutor7",
+                    "education_name": "BSc in Biology - University of British Columbia",
+                    "description": "Genetics and molecular biology focus.",
+                    "start_year": "2009",
+                    "end_year": "2013"
+                },
+                {
+                    "education_id": "edu7-2",
+                    "tutor_id": "tutor7",
+                    "education_name": "Postgraduate Diploma in Education",
+                    "description": "Qualified secondary school biology teacher.",
+                    "start_year": "2014",
+                    "end_year": "2015"
+                },
+                {
+                    "education_id": "edu7-3",
+                    "tutor_id": "tutor7",
+                    "education_name": "EdTech Specialization - edX",
+                    "description": "Studied modern tools and platforms for online learning.",
+                    "start_year": "2020"
+                }
+            ],
+            "courses": [
+                {
+                    "course_id": "course7-1",
+                    "tutor_id": "tutor7",
+                    "course_name": "English Grammar Foundation",
+                    "introduction_video": "https: //example.com/videos/grammar_intro.mp4",
+                    "subject": "English",
+                    "price": 900000,
+                    "course_level": "Beginner",
+                    "tag": "Grammar",
+                    "created_at": "2022-11-01T09: 00: 00Z",
+                    "updated_at": "2022-12-01T10: 00: 00Z",
+                    "deleted": false
+                },
+                {
+                    "course_id": "course7-2",
+                    "tutor_id": "tutor7",
+                    "course_name": "TOEFL Speaking Strategies",
+                    "introduction_video": "https: //example.com/videos/toefl_speaking.mp4",
+                    "subject": "English",
+                    "price": 1300005,
+                    "course_level": "Intermediate",
+                    "tag": "TOEFL",
+                    "created_at": "2023-08-05T10: 00: 00Z",
+                    "updated_at": "2023-08-20T10: 45: 00Z",
+                    "deleted": false
+                },
+                {
+                    "course_id": "course7-3",
+                    "tutor_id": "tutor7",
+                    "course_name": "Advanced Essay Writing",
+                    "introduction_video": "https: //example.com/videos/essay_writing.mp4",
+                    "subject": "English",
+                    "price": 1500000,
+                    "course_level": "Advanced",
+                    "tag": "Writing",
+                    "created_at": "2024-05-01T11: 00: 00Z",
+                    "updated_at": "2024-05-20T12: 30: 00Z",
+                    "deleted": false
+                }
+            ]
+        }
+    },
+    {
+        "accountId": "acc008",
+        "firstName": "Anna",
+        "lastName": "Lee",
+        "dob": "1994-02-14",
+        "gender": "Female",
+        "avatar": "https://i.pinimg.com/736x/46/91/1f/46911f15527d428ab7904e2ee0e50d05.jpg",
+        "email": "anna.lee@tutor.com",
+        "phoneNumber": "+1234567897",
+        "address": "505 Spruce St",
+        "province": "Pennsylvania",
+        "district": "Philadelphia",
+        "ward": "Center City",
+        "educationLevel": "College",
+        "role": "TUTOR",
+        "created_at": "2023-06-15T08:00:00Z",
+        "updated_at": "2025-06-05T14:00:00Z",
+        "active": true,
+        "tutorData": {
+            "tutor_id": "tut008",
+            "account_id": "acc008",
+            "avatar": "https://i.pinimg.com/736x/46/91/1f/46911f15527d428ab7904e2ee0e50d05.jpg",
+            "video_link": "https://example.com/videos/anna_intro.mp4",
+            "short_description": "Spanish tutor with a focus on conversational fluency.",
+            "description": "Anna is a native Spanish speaker and experienced tutor with 6 years of teaching experience. She helps students achieve fluency through immersive conversational practice and cultural insights. Her lessons are tailored to each student’s goals, whether for travel, work, or academic purposes.",
+            "teaching_style": "Immersive and conversational",
+            "rating": 4.8,
+            "major": "Spanish Language and Literature",
+            "instituation": "University of Pennsylvania",
+            "content": "Spanish Conversation, Grammar, Literature",
+            "total_students_taught": 95,
+            "total_lessons_taught": 850,
+            "review_count": 70,
+            "tuition": 450000,
+            "certificates": [
+                {
+                    "qualification_id": "cert008",
+                    "tutor_id": "tut008",
+                    "qualification_name": "Bachelor of Arts in Spanish",
+                    "description": "Earned a BA in Spanish with a focus on Latin American literature.",
+                    "cert_image": "https://i.pinimg.com/736x/16/03/61/160361e8588fda378e8a2e68457328b0.jpg",
+                    "is_verify": true
+                }
+            ],
+            "experiences": [
+                {
+                    "experience_id": "exp008",
+                    "tutor_id": "tut008",
+                    "experience_name": "Spanish Tutor at Language Academy",
+                    "description": "Taught conversational Spanish to students of all levels, improving their fluency and confidence.",
+                    "start_year": "2019",
+                    "end_year": "2024"
+                }
+            ],
+            "educations": [
+                {
+                    "education_id": "edu8-1",
+                    "tutor_id": "tutor8",
+                    "education_name": "Bachelor of Arts - NYU",
+                    "description": "Double major in History and Sociology.",
+                    "start_year": "2006",
+                    "end_year": "2010"
+                },
+                {
+                    "education_id": "edu8-2",
+                    "tutor_id": "tutor8",
+                    "education_name": "Master in Social Studies Education",
+                    "description": "Training for secondary education instruction.",
+                    "start_year": "2011",
+                    "end_year": "2013"
+                },
+                {
+                    "education_id": "edu8-3",
+                    "tutor_id": "tutor8",
+                    "education_name": "Curriculum Design Certificate",
+                    "description": "Trained in modern curriculum development techniques.",
+                    "start_year": "2016"
+                }
+            ],
+            "courses": [
+                {
+                    "course_id": "course8-1",
+                    "tutor_id": "tutor8",
+                    "course_name": "World War II Explained",
+                    "introduction_video": "https: //example.com/videos/ww2_intro.mp4",
+                    "subject": "History",
+                    "price": 950000,
+                    "course_level": "Intermediate",
+                    "tag": "WWII",
+                    "created_at": "2023-01-12T14: 00: 00Z",
+                    "updated_at": "2023-02-01T14: 30: 00Z",
+                    "deleted": false
+                },
+                {
+                    "course_id": "course8-2",
+                    "tutor_id": "tutor8",
+                    "course_name": "Ancient Civilizations Overview",
+                    "introduction_video": "https: //example.com/videos/ancient_intro.mp4",
+                    "subject": "History",
+                    "price": 1000000,
+                    "course_level": "Beginner",
+                    "tag": "Ancient History",
+                    "created_at": "2023-03-18T09: 00: 00Z",
+                    "updated_at": "2023-04-10T10: 00: 00Z",
+                    "deleted": false
+                },
+                {
+                    "course_id": "course8-3",
+                    "tutor_id": "tutor8",
+                    "course_name": "Vietnamese History Masterclass",
+                    "introduction_video": "https: //example.com/videos/vn_history.mp4",
+                    "subject": "History",
+                    "price": 1300000,
+                    "course_level": "Advanced",
+                    "tag": "Vietnam",
+                    "created_at": "2024-01-10T08: 00: 00Z",
+                    "updated_at": "2024-02-01T09: 00: 00Z",
+                    "deleted": false
+                }
+            ]
+        }
+    },
+    {
+        "accountId": "acc009",
+        "firstName": "Robert",
+        "lastName": "Clark",
+        "dob": "1989-06-20",
+        "gender": "Male",
+        "avatar": "https://i.pinimg.com/736x/da/dc/16/dadc1681cd154443b8ce02a6df9dd54e.jpg",
+        "email": "robert.clark@tutor.com",
+        "phoneNumber": "+1234567898",
+        "address": "606 Willow Dr",
+        "province": "Georgia",
+        "district": "Atlanta",
+        "ward": "Midtown",
+        "educationLevel": "College",
+        "role": "TUTOR",
+        "created_at": "2023-07-10T09:00:00Z",
+        "updated_at": "2025-06-04T11:00:00Z",
+        "active": true,
+        "tutorData": {
+            "tutor_id": "tut009",
+            "account_id": "acc009",
+            "avatar": "https://i.pinimg.com/736x/da/dc/16/dadc1681cd154443b8ce02a6df9dd54e.jpg",
+            "video_link": "https://example.com/videos/robert_intro.mp4",
+            "short_description": "Economics tutor specializing in micro and macroeconomics.",
+            "description": "Robert is an experienced economics tutor with 9 years of teaching experience. He simplifies complex economic theories and helps students apply them to real-world scenarios. His interactive lessons include case studies and discussions to deepen understanding and analytical skills.",
+            "teaching_style": "Interactive and case-study based",
+            "rating": 4.7,
+            "major": "Economics",
+            "instituation": "Emory University",
+            "content": "Microeconomics, Macroeconomics, Econometrics",
+            "total_students_taught": 100,
+            "total_lessons_taught": 900,
+            "review_count": 65,
+            "tuition": 500000,
+            "certificates": [
+                {
+                    "qualification_id": "cert009",
+                    "tutor_id": "tut009",
+                    "qualification_name": "Master of Arts in Economics",
+                    "description": "Completed an MA in Economics with a focus on international trade.",
+                    "cert_image": "https://i.pinimg.com/736x/e5/df/ae/e5dfae46f557eeb43d73b591f6d6a213.jpg",
+                    "is_verify": true
+                }
+            ],
+            "experiences": [
+                {
+                    "experience_id": "exp009",
+                    "tutor_id": "tut009",
+                    "experience_name": "Economics Tutor at LearnEasy",
+                    "description": "Taught micro and macroeconomics to college students, improving their understanding of economic principles.",
+                    "start_year": "2016",
+                    "end_year": "2023"
+                }
+            ],
+            "educations": [
+                {
+                    "education_id": "edu9-1",
+                    "tutor_id": "tutor9",
+                    "education_name": "Bachelor of Engineering - NUS",
+                    "description": "Electrical Engineering specialization.",
+                    "start_year": "2010",
+                    "end_year": "2014"
+                },
+                {
+                    "education_id": "edu9-2",
+                    "tutor_id": "tutor9",
+                    "education_name": "Master in AI - Nanyang Technological University",
+                    "description": "Focused on AI applications in robotics.",
+                    "start_year": "2015",
+                    "end_year": "2017"
+                },
+                {
+                    "education_id": "edu9-3",
+                    "tutor_id": "tutor9",
+                    "education_name": "Online Robotics Course - MITx",
+                    "description": "Self-paced robotics design and simulation course.",
+                    "start_year": "2018"
+                }
+            ],
+            "courses": [
+                {
+                    "course_id": "course9-1",
+                    "tutor_id": "tutor9",
+                    "course_name": "Physical Geography Essentials",
+                    "introduction_video": "https: //example.com/videos/physical_geography.mp4",
+                    "subject": "Geography",
+                    "price": 900000,
+                    "course_level": "Beginner",
+                    "tag": "Earth",
+                    "created_at": "2023-02-14T10: 00: 00Z",
+                    "updated_at": "2023-03-01T11: 00: 00Z",
+                    "deleted": false
+                },
+                {
+                    "course_id": "course9-2",
+                    "tutor_id": "tutor9",
+                    "course_name": "Human Geography and Cultures",
+                    "introduction_video": "https: //example.com/videos/human_geography.mp4",
+                    "subject": "Geography",
+                    "price": 1200000,
+                    "course_level": "Intermediate",
+                    "tag": "Culture",
+                    "created_at": "2023-05-01T13: 00: 00Z",
+                    "updated_at": "2023-06-01T14: 00: 00Z",
+                    "deleted": false
+                },
+                {
+                    "course_id": "course9-3",
+                    "tutor_id": "tutor9",
+                    "course_name": "GIS and Modern Mapping",
+                    "introduction_video": "https: //example.com/videos/gis_intro.mp4",
+                    "subject": "Geography",
+                    "price": 1600000,
+                    "course_level": "Advanced",
+                    "tag": "GIS",
+                    "created_at": "2024-04-15T08: 00: 00Z",
+                    "updated_at": "2024-05-10T08: 45: 00Z",
+                    "deleted": false
+                }
+            ]
+        }
+    },
+    {
+        "accountId": "acc010",
+        "firstName": "Sophie",
+        "lastName": "Adams",
+        "dob": "1992-12-05",
+        "gender": "Female",
+        "avatar": "https://i.pinimg.com/736x/97/b8/7b/97b87b59fbb911ca0f4e374c22b7a874.jpg",
+        "email": "sophie.adams@tutor.com",
+        "phoneNumber": "+1234567899",
+        "address": "707 Laurel St",
+        "province": "Colorado",
+        "district": "Denver",
+        "ward": "Capitol Hill",
+        "educationLevel": "College",
+        "role": "TUTOR",
+        "created_at": "2023-08-01T10:00:00Z",
+        "updated_at": "2025-06-03T12:00:00Z",
+        "active": true,
+        "tutorData": {
+            "tutor_id": "tut010",
+            "account_id": "acc010",
+            "avatar": "https://i.pinimg.com/736x/97/b8/7b/97b87b59fbb911ca0f4e374c22b7a874.jpg",
+            "video_link": "https://example.com/videos/sophie_intro.mp4",
+            "short_description": "Art history tutor with a passion for Renaissance and modern art.",
+            "description": "Sophie is a dedicated art history tutor with 7 years of experience teaching students about art movements, artists, and cultural contexts. Her lessons are visually rich and discussion-based, encouraging students to analyze artworks critically and connect them to historical events.",
+            "teaching_style": "Visual and discussion-based",
+            "rating": 4.8,
+            "major": "Art History",
+            "instituation": "University of Colorado Boulder",
+            "content": "Renaissance Art, Modern Art, Art Criticism",
+            "total_students_taught": 80,
+            "total_lessons_taught": 700,
+            "review_count": 60,
+            "tuition": 450000,
+            "certificates": [
+                {
+                    "qualification_id": "cert010",
+                    "tutor_id": "tut010",
+                    "qualification_name": "Master of Arts in Art History",
+                    "description": "Earned an MA in Art History with a focus on Renaissance painting.",
+                    "cert_image": "https://i.pinimg.com/736x/c0/22/86/c02286dabd74373ae714487ffa6f36d1.jpg",
+                    "is_verify": true
+                }
+            ],
+            "experiences": [
+                {
+                    "experience_id": "exp010",
+                    "tutor_id": "tut010",
+                    "experience_name": "Art History Tutor at Cultural Academy",
+                    "description": "Taught art history to high school and college students, focusing on critical analysis of artworks.",
+                    "start_year": "2018",
+                    "end_year": "2024"
+                }
+            ],
+            "educations": [
+                {
+                    "education_id": "edu10-1",
+                    "tutor_id": "tutor10",
+                    "education_name": "Bachelor of Fine Arts - RISD",
+                    "description": "Emphasis on visual communication and design.",
+                    "start_year": "2009",
+                    "end_year": "2013"
+                },
+                {
+                    "education_id": "edu10-2",
+                    "tutor_id": "tutor10",
+                    "education_name": "MFA in Digital Arts - SCAD",
+                    "description": "Advanced motion graphics and digital storytelling.",
+                    "start_year": "2014",
+                    "end_year": "2016"
+                },
+                {
+                    "education_id": "edu10-3",
+                    "tutor_id": "tutor10",
+                    "education_name": "Teaching Art Certificate",
+                    "description": "Certified to teach art in K-12 schools.",
+                    "start_year": "2017"
+                }
+            ],
+            "courses": [
+                {
+                    "course_id": "course10-1",
+                    "tutor_id": "tutor10",
+                    "course_name": "Basic Drawing Techniques",
+                    "introduction_video": "https: //example.com/videos/drawing_intro.mp4",
+                    "subject": "Art",
+                    "price": 800000,
+                    "course_level": "Beginner",
+                    "tag": "Drawing",
+                    "created_at": "2022-10-10T09: 00: 00Z",
+                    "updated_at": "2022-11-01T09: 30: 00Z",
+                    "deleted": false
+                },
+                {
+                    "course_id": "course10-2",
+                    "tutor_id": "tutor10",
+                    "course_name": "Digital Illustration with Procreate",
+                    "introduction_video": "https: //example.com/videos/procreate_intro.mp4",
+                    "subject": "Art",
+                    "price": 1400000,
+                    "course_level": "Intermediate",
+                    "tag": "Digital Art",
+                    "created_at": "2023-06-01T10: 00: 00Z",
+                    "updated_at": "2023-06-20T10: 45: 00Z",
+                    "deleted": false
+                },
+                {
+                    "course_id": "course10-3",
+                    "tutor_id": "tutor10",
+                    "course_name": "Oil Painting Techniques",
+                    "introduction_video": "https: //example.com/videos/oil_painting.mp4",
+                    "subject": "Art",
+                    "price": 1700000,
+                    "course_level": "Advanced",
+                    "tag": "Painting",
+                    "created_at": "2024-01-20T13: 00: 00Z",
+                    "updated_at": "2024-02-15T14: 00: 00Z",
+                    "deleted": false
+                }
+            ]
+        }
+    }
+]

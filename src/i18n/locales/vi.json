@@ -1,0 +1,1472 @@
+{
+  "common": {
+    "locale": "vi-VN",
+    "back": "Quay lại",
+    "cancel": "Hủy",
+    "save": "Lưu",
+    "add": "Thêm",
+    "apply": "Áp dụng",
+    "clear": "Xóa",
+    "loading": "Đang tải",
+    "refresh": "Làm mới",
+    "actions": "Hành động"
+  },
+  "header": {
+    "home": "Trang chủ",
+    "courses": "Khóa học",
+    "tests": "Kiểm tra",
+    "supports": "Hỗ trợ",
+    "practice": "Luyện tập",
+    "login": "Đăng nhập",
+    "register": "Đăng ký",
+    "logout": "Đăng xuất",
+    "profile": "Hồ sơ",
+    "settings": "Cài đặt",
+    "adminPanel": "Bảng quản trị",
+    "staffPanel": "Bảng nhân viên",
+    "backToSite": "Quay về trang chủ",
+    "language": "Ngôn ngữ"
+  },
+  "otp": {
+    "title": "Xác thực tài khoản",
+    "description": "Chúng tôi đã gửi mã xác thực đến {email}. Vui lòng nhập mã bên dưới để xác thực tài khoản của bạn.",
+    "verify": "Xác thực",
+    "verifying": "Đang xác thực...",
+    "resend": "Gửi lại mã",
+    "resendIn": "Gửi lại mã trong",
+    "sending": "Đang gửi...",
+    "sent": "Đã gửi mã xác thực",
+    "sendFailed": "Không thể gửi mã xác thực",
+    "verified": "Tài khoản đã được xác thực thành công",
+    "verificationFailed": "Xác thực thất bại",
+    "invalid": "Mã xác thực không hợp lệ",
+    "incomplete": "Vui lòng nhập đầy đủ mã xác thực",
+    "successMessage": "Tài khoản của bạn đã được xác thực thành công!",
+    "contactSupport": "Gặp khó khăn? Liên hệ đội ngũ hỗ trợ của chúng tôi."
+  },
+  "auth": {
+    "login": {
+      "title": "Đăng nhập",
+      "welcome": "Chào mừng trở lại",
+      "subtitle": "Đăng nhập vào tài khoản FutureMe của bạn",
+      "email": "Email",
+      "emailPlaceholder": "me@example.com",
+      "password": "Mật khẩu",
+      "forgotPassword": "Quên mật khẩu?",
+      "loginButton": "Đăng nhập",
+      "noAccount": "Chưa có tài khoản?",
+      "signUp": "Đăng ký",
+      "imageAlt": "Hình nền đăng nhập",
+      "termsPrefix": "Khi nhấp tiếp tục, bạn đồng ý với",
+      "termsOfService": "Điều khoản dịch vụ",
+      "termsAnd": "và",
+      "privacyPolicy": "Chính sách bảo mật",
+      "loginSuccess": "Đăng nhập thành công!",
+      "loginError": "Đăng nhập thất bại. Vui lòng thử lại.",
+      "signingIn": "Đang đăng nhập...",
+      "invalidCredentials": "Email hoặc mật khẩu không đúng",
+      "networkError": "Lỗi kết nối. Vui lòng kiểm tra kết nối và thử lại.",
+      "serverError": "Lỗi máy chủ. Vui lòng thử lại sau."
+    },
+    "register": {
+      "title": "Đăng ký",
+      "subtitle": "Tạo tài khoản FutureMe mới",
+      "fullName": "Họ và tên",
+      "email": "Email",
+      "password": "Mật khẩu",
+      "confirmPassword": "Xác nhận mật khẩu",
+      "registerButton": "Tạo tài khoản",
+      "haveAccount": "Bạn đã có tài khoản?",
+      "login": "Đăng nhập"
+    },
+    "forgotPassword": {
+      "title": "Đặt lại mật khẩu",
+      "subtitle": "Nhập email của bạn và chúng tôi sẽ gửi liên kết đặt lại",
+      "email": "Email",
+      "resetButton": "Gửi liên kết đặt lại",
+      "backToLogin": "Quay lại đăng nhập",
+      "emailSent": "Đã gửi liên kết đặt lại!",
+      "checkInbox": "Vui lòng kiểm tra hộp thư email của bạn để lấy liên kết đặt lại mật khẩu.",
+      "emailError": "Không thể gửi email đặt lại. Vui lòng thử lại.",
+      "networkError": "Lỗi mạng. Vui lòng kiểm tra kết nối và thử lại."
+    },
+    "resetPassword": {
+      "title": "Tạo mật khẩu mới",
+      "subtitle": "Nhập mật khẩu mới của bạn bên dưới",
+      "resetForAccount": "Đặt lại mật khẩu cho",
+      "newPassword": "Mật khẩu mới",
+      "confirmPassword": "Xác nhận mật khẩu mới",
+      "passwordPlaceholder": "Nhập mật khẩu mới",
+      "confirmPasswordPlaceholder": "Xác nhận mật khẩu mới",
+      "resetButton": "Đặt lại mật khẩu",
+      "resetting": "Đang đặt lại mật khẩu...",
+      "success": "Đặt lại mật khẩu thành công! Bạn có thể đăng nhập với mật khẩu mới.",
+      "validatingToken": "Đang xác thực liên kết đặt lại...",
+      "invalidToken": "Liên kết đặt lại không hợp lệ hoặc đã hết hạn",
+      "tokenExpired": "Liên kết đặt lại đã hết hạn. Vui lòng yêu cầu một liên kết mới.",
+      "invalidLinkTitle": "Liên kết đặt lại không hợp lệ",
+      "invalidLinkDescription": "Liên kết đặt lại này không hợp lệ hoặc đã hết hạn.",
+      "requestNewLink": "Yêu cầu liên kết đặt lại mới",
+      "passwordRequired": "Mật khẩu là bắt buộc",
+      "passwordTooShort": "Mật khẩu phải có ít nhất 8 ký tự",
+      "passwordNoUppercase": "Mật khẩu phải chứa ít nhất một chữ cái viết hoa",
+      "passwordNoSpecial": "Mật khẩu phải chứa ít nhất một ký tự đặc biệt",
+      "passwordNoSpaces": "Mật khẩu không được chứa khoảng trắng",
+      "confirmPasswordRequired": "Vui lòng xác nhận mật khẩu của bạn",
+      "passwordsDoNotMatch": "Mật khẩu không khớp"
+    }
+  },
+  "register": {
+    "title": "Đăng ký tài khoản",
+    "subtitle": "Tạo tài khoản mới để sử dụng dịch vụ",
+    "sections": {
+      "personal": "Thông tin cá nhân",
+      "contact": "Thông tin liên hệ",
+      "security": "Bảo mật",
+      "location": "Địa chỉ"
+    },
+    "firstName": "Họ",
+    "firstNamePlaceholder": "Nhập họ",
+    "lastName": "Tên",
+    "lastNamePlaceholder": "Nhập tên",
+    "email": "Email",
+    "emailPlaceholder": "Nhập email",
+    "phoneNumber": "Số điện thoại",
+    "phoneNumberPlaceholder": "Nhập số điện thoại",
+    "password": "Mật khẩu",
+    "passwordPlaceholder": "Nhập mật khẩu",
+    "passwordHint": "Mật khẩu phải có ít nhất 8 ký tự, bao gồm 1 chữ in hoa, 1 ký tự đặc biệt, và không chứa khoảng trắng",
+    "confirmPassword": "Xác nhận mật khẩu",
+    "confirmPasswordPlaceholder": "Nhập lại mật khẩu",
+    "dob": "Ngày sinh",
+    "gender": "Giới tính",
+    "genderPlaceholder": "Chọn giới tính",
+    "gender.male": "Nam",
+    "gender.female": "Nữ",
+    "educationLevel": "Cấp độ giáo dục",
+    "educationLevelPlaceholder": "Chọn cấp độ",
+    "educationLevel.secondary": "THCS",
+    "educationLevel.high": "THPT",
+    "educationLevel.college": "Đại học",
+    "province": "Tỉnh/Thành phố",
+    "provincePlaceholder": "Chọn tỉnh/thành phố",
+    "district": "Quận/Huyện",
+    "districtPlaceholder": "Chọn quận/huyện",
+    "ward": "Phường/Xã",
+    "wardPlaceholder": "Chọn phường/xã",
+    "role.label": "Vai trò",
+    "role.student": "Học Sinh/Sinh Viên",
+    "role.parent": "Phụ Huynh",
+    "terms": "Tôi đồng ý với điều khoản sử dụng và chính sách bảo mật",
+    "submit": "Đăng ký",
+    "loading": "Đang xử lý...",
+    "loginLink": "Đăng nhập",
+    "forgotPasswordLink": "Quên mật khẩu",
+    "successMessage": "Bạn đã đăng ký thành công! Kiểm tra email để xác thực.",
+    "errors": {
+      "firstName": {
+        "required": "Họ không được để trống",
+        "format": "Họ chỉ được chứa ký tự chữ cái và khoảng trắng"
+      },
+      "lastName": {
+        "required": "Tên không được để trống",
+        "format": "Tên chỉ được chứa ký tự chữ cái và khoảng trắng"
+      },
+      "email": {
+        "required": "Email không được để trống",
+        "format": "Email không hợp lệ"
+      },
+      "phoneNumber": {
+        "required": "Số điện thoại không được để trống",
+        "format": "Số điện thoại phải có 10 hoặc 11 số"
+      },
+      "password": {
+        "required": "Mật khẩu không được để trống",
+        "format": "Mật khẩu phải có ít nhất 8 ký tự, 1 chữ in hoa, 1 ký tự đặc biệt, không chứa khoảng trắng"
+      },
+      "confirmPassword": {
+        "required": "Xác nhận mật khẩu không được để trống",
+        "match": "Mật khẩu không khớp"
+      },
+      "dob": {
+        "required": "Ngày sinh không được để trống",
+        "minYear": "Năm sinh phải từ {{year}} trở lên",
+        "minAge": "Bạn phải từ 10 tuổi trở lên"
+      },
+      "gender": "Giới tính không được để trống",
+      "province": "Tỉnh/Thành phố không được để trống",
+      "district": "Quận/Huyện không được để trống",
+      "ward": "Phường/Xã không được để trống",
+      "educationLevel": "Cấp độ giáo dục không được để trống",
+      "terms": "Bạn phải chấp nhận điều khoản sử dụng",
+      "general": "Lỗi khi thực hiện đăng ký tài khoản",
+      "provinceLoad": "Không thể tải dữ liệu tỉnh/thành phố. Vui lòng thử lại sau."
+    }
+  },
+  "homePage": {
+    "carousel": [
+      {
+        "title": "Luyện Thi SAT Hiệu Quả & Nhanh Chóng",
+        "description": "Bài thi theo chuẩn SAT, chấm điểm tự động, giải thích đáp án chi tiết và thống kê kết quả."
+      },
+      {
+        "title": "Đầy Đủ Tính Năng Hỗ Trợ Ôn Luyện",
+        "description": "Trải nghiệm bài kiểm tra SAT mô phỏng thực tế, đánh giá năng lực và cải thiện điểm số."
+      },
+      {
+        "title": "Sẵn Sàng Nâng Cao Điểm SAT?",
+        "description": "Thực hành ngay hôm nay và theo dõi sự tiến bộ của bạn!"
+      }
+    ],
+    "carouselButton":"Trải nghiệm ngay",
+    "heroSection":{
+      "title": "Cùng xem những",
+      "title2": "tính năng",
+      "title3": "thú vị của Future Me",
+      "description": "Bao gồm hệ thống trắc nghiệm dự đoán nghề nghiệp thích hợp. Từ đó cung cấp danh sách kiến thức, kỹ năng cần trang bị và chương trình học đi kèm. Ngoài ra Future Me còn giới thiệu đến bạn những cơ sở học tập uy tín và sự tư vấn đến từ những chuyên gia hay nhân vật thành công với nghề nghiệp nói trên.",
+      "buttonText": "Xem chi tiết",
+      "feature1": {
+        "alt": "Đề thi chọn lọc",
+        "title": "Đề thi chọn lọc từ các chuyên gia"
+      },
+      "feature2": {
+        "alt": "Môi trường thi chân thật",
+        "title": "Môi trường thi chân thật"
+      }
+    },
+    "cta": {
+      "title": "Sẵn sàng khám phá con đường nghề nghiệp của bạn?",
+      "subtitle": "Tham gia cùng hàng nghìn học sinh đã tìm ra định hướng với Future Me",
+      "button": "Bắt đầu hành trình"
+    },
+    "whyChooseUs": {
+      "title": "Vì sao bạn nên chọn",
+      "subtitle": "Với những tính năng hữu ích và thú vị, Future Me tin rằng bạn sẽ có một trải nghiệm tuyệt vời.",
+      "features": [
+        {
+          "id": 1,
+          "icon": "🤖",
+          "title": "Định hướng nghề nghiệp đa dạng",
+          "description": "01"
+        },
+        {
+          "id": 2,
+          "icon": "📋",
+          "title": "Nguồn tài liệu phong phú",
+          "description": "02"
+        },
+        {
+          "id": 3,
+          "icon": "📈",
+          "title": "Hỗ trợ phát triển bản thân",
+          "description": "03"
+        },
+        {
+          "id": 4,
+          "icon": "📖",
+          "title": "Nhiều bài học bổ ích",
+          "description": "04"
+        },
+        {
+          "id": 5,
+          "icon": "⏳",
+          "title": "Tối ưu hóa thời gian học tập",
+          "description": "05"
+        },
+        {
+          "id": 6,
+          "icon": "📑",
+          "title": "Học tập theo sở thích",
+          "description": "06"
+        }
+      ]
+    },
+    "testimonials": {
+      "title": "Phản hồi từ học viên",
+      "subtitle": "Những đánh giá thật từ học sinh, phụ huynh và giáo viên đã có trải nghiệm thành công với nền tảng của chúng tôi",
+      "cta": "Tham gia cùng hàng nghìn học sinh đã cải thiện điểm SAT với Future Me",
+      "testimonial1": {
+        "name": "Nguyễn Minh Anh",
+        "role": "Học sinh THPT",
+        "content": "Future Me đã giúp tôi cải thiện điểm SAT tới 200 điểm! Các bài kiểm tra thử cực kỳ thực tế và lời giải thích rất chi tiết."
+      },
+      "testimonial2": {
+        "name": "Trần Đức Minh",
+        "role": "Học sinh ôn thi đại học",
+        "content": "Giao diện sạch sẽ và dễ sử dụng. Tôi thích cách nền tảng theo dõi tiến độ và xác định những lĩnh vực cần luyện tập thêm."
+      },
+      "testimonial3": {
+        "name": "Lê Thị Hương",
+        "role": "Phụ huynh",
+        "content": "Là phụ huynh, tôi đánh giá cao tính toàn diện của nền tảng này. Sự tự tin trong môn toán của con gái tôi đã cải thiện rất nhiều."
+      },
+      "testimonial4": {
+        "name": "Phạm Hoàng Nam",
+        "role": "Học sinh lớp 12",
+        "content": "Phần luyện tập đọc hiểu rất xuất sắc. Sự đa dạng của các đoạn văn thực sự giúp tôi chuẩn bị tốt cho kỳ thi thực tế."
+      },
+      "testimonial5": {
+        "name": "Võ Thị Mai",
+        "role": "Gia sư",
+        "content": "Tôi giới thiệu Future Me cho tất cả học sinh của mình. Các phân tích chi tiết giúp tôi hiểu rõ học sinh cần hỗ trợ ở đâu."
+      },
+      "testimonial6": {
+        "name": "Đặng Quốc Bảo",
+        "role": "Sinh viên đại học",
+        "content": "Đã sử dụng nền tảng này trong suốt năm cuối cấp. Các bài kiểm tra thử rất giống với SAT thực tế, tôi cảm thấy hoàn toàn sẵn sàng."
+      }
+    }
+  },
+  "footer":{
+    "customerCare": "Chăm sóc khách hàng",
+    "services": "Dịch vụ",
+    "faq": "Câu hỏi thường gặp",
+    "privacyPolicy": "Chính sách bảo mật",
+    "termsOfUse": "Điều khoản sử dụng",
+    "followUs": "Theo dõi chúng tôi",
+    "contact": "Liên hệ",
+    "address": "Khu Công nghệ cao Hòa Lạc, Km29 Đại lộ Thăng Long, huyện Thạch Thất, Hà Nội",
+    "email": "Email",
+    "phone": "Điện thoại",
+    "copyright": "© Bản quyền thuộc về FPTU Smart Lab."
+  },
+  "tests": {
+    "title": "Luyện thi SAT",
+    "subtitle": "Chinh phục SAT với các bài luyện thi toàn diện được thiết kế để nâng cao điểm số của bạn",
+    "hero": {
+      "title": "Sẵn sàng chinh phục SAT?",
+      "description": "Tham gia các bài luyện thi SAT toàn diện phản ánh trải nghiệm thi thật. Nhận phân tích chi tiết, phản hồi cá nhân hóa và theo dõi tiến độ của bạn theo thời gian.",
+      "cta": "Bắt đầu hành trình"
+    },
+    "features": {
+      "title": "Tại sao chọn bài thi SAT của chúng tôi?",
+      "realExam": {
+        "title": "Trải nghiệm thi thật",
+        "description": "Định dạng SAT chính thức với thời gian và loại câu hỏi chuẩn"
+      },
+      "detailed": {
+        "title": "Phân tích chi tiết",
+        "description": "Nhận báo cáo toàn diện về điểm mạnh và những lĩnh vực cần cải thiện"
+      },
+      "adaptive": {
+        "title": "Học tập thích ứng",
+        "description": "Luyện tập cá nhân hóa dựa trên mô hình hiệu suất của bạn"
+      }
+    },
+    "testTypes": {
+      "practice": {
+        "title": "Bài thi thử",
+        "description": "Buổi luyện tập nhanh 30 phút để khởi động kỹ năng của bạn",
+        "questions": "27 câu hỏi",
+        "duration": "30 phút",
+        "modules": "Đọc hiểu & Viết + Toán",
+        "badge": "Khởi đầu nhanh",
+        "difficulty": "Thân thiện với người mới"
+      },
+      "fullLength": {
+        "title": "Bài thi SAT toàn diện",
+        "description": "Trải nghiệm SAT hoàn chỉnh với tất cả phần thi và thời gian chính thức",
+        "questions": "98 câu hỏi",
+        "duration": "134 phút",
+        "modules": "2 module Đọc hiểu & Viết + 2 module Toán",
+        "badge": "Định dạng chính thức",
+        "difficulty": "Mô phỏng thi thật"
+      },
+      "diagnostic": {
+        "title": "Bài thi chẩn đoán",
+        "description": "Xác định điểm mạnh và điểm yếu của bạn trong tất cả chủ đề SAT",
+        "questions": "54 câu hỏi",
+        "duration": "67 phút",
+        "modules": "Đánh giá thích ứng",
+        "badge": "Phân tích thông minh",
+        "difficulty": "Cá nhân hóa"
+      }
+    },
+    "stats": {
+      "title": "Tiến độ của bạn",
+      "testsCompleted": "Bài thi đã hoàn thành",
+      "averageScore": "Điểm trung bình",
+      "improvementRate": "Tỷ lệ cải thiện",
+      "timeSpent": "Thời gian đã dành"
+    },
+    "sample": {
+      "title": "Bài kiểm tra mẫu",
+      "description": "Bài kiểm tra mẫu để luyện tập kỹ năng của bạn"
+    },
+    "duration": "Thời gian",
+    "questions": "Câu hỏi",
+    "modules": "Module",
+    "minutes": "phút",
+    "start": "Bắt đầu",
+    "startNow": "Bắt đầu ngay",
+    "comingSoon": "Sắp ra mắt",
+    "readingWritingMath": {
+      "title": "Kiểm tra Đọc hiểu, Viết và Toán",
+      "description": "Luyện tập với bài kiểm tra đa module bao gồm Đọc hiểu và Viết (27 câu hỏi, 32 phút) và Toán học (22 câu hỏi, 35 phút)."
+    },
+    "exit": "Thoát bài kiểm tra",
+    "exitConfirmation": "Bạn có chắc chắn muốn thoát? Tiến trình của bạn sẽ bị mất.",
+    "returnToTests": "Quay lại trang kiểm tra",
+    "testScreen": {
+      "welcome": "Chào mừng đến với bài kiểm tra",
+      "intro": "Bài kiểm tra này bao gồm hai module: Đọc hiểu và Viết, và Toán học. Mỗi module có hai phần với giới hạn thời gian cụ thể.",
+      "startTest": "Bắt đầu kiểm tra",
+      "selectModule": "Chọn module",
+      "completeTest": "Hoàn thành bài kiểm tra",
+      "testCompleted": "Đã hoàn thành bài kiểm tra!",
+      "thankYou": "Cảm ơn bạn đã hoàn thành bài kiểm tra.",
+      "backToStart": "Quay lại",
+      "pending": "Chuẩn bị cho phần tiếp theo",
+      "pendingDescription": "Bạn sắp bắt đầu Phần {{partNumber}} của module {{moduleName}}.",
+      "breakTime": "Giờ nghỉ",
+      "breakTimeDescription": "Nghỉ giải lao 10 phút trước khi bắt đầu module Toán học.",
+      "timeRemaining": "Thời gian còn lại",
+      "continueButton": "Tiếp tục phần tiếp theo",
+      "skipBreak": "Bỏ qua giải lao"
+    },
+    "modules": {
+      "readingWriting": {
+        "name": "Đọc hiểu và Viết",
+        "description": "Kiểm tra kỹ năng đọc hiểu và viết của bạn",
+        "part": "Phần"
+      },
+      "math": {
+        "name": "Toán học",
+        "description": "Kiểm tra kỹ năng toán học và khả năng giải quyết vấn đề của bạn",
+        "part": "Phần"
+      }
+    },
+    "moduleCard": {
+      "parts": "Số phần",
+      "questionsPerPart": "Số câu hỏi mỗi phần",
+      "timePerPart": "Thời gian mỗi phần",
+      "startModule": "Bắt đầu module"
+    },
+    "testPart": {
+      "question": "Câu hỏi",
+      "of": "trên",
+      "answered": "đã trả lời",
+      "previous": "Trước",
+      "next": "Tiếp",
+      "submit": "Nộp bài",
+      "questionNavigation": "Điều hướng câu hỏi"
+    },
+    "trialsRemaining": "Còn {{count}} lượt thử miễn phí",
+    "trialsRemaining_plural": "Còn {{count}} lượt thử miễn phí",
+    "trialsExhausted": "Đã hết lượt thử miễn phí",
+    "premiumUser": "Người dùng Premium - Truy cập không giới hạn",
+    "upgradeToStart": "Nâng cấp để bắt đầu"
+  },
+  "testResults": {
+    "title": "Kết quả bài kiểm tra",
+    "backToTests": "Quay lại bài kiểm tra",
+    "downloadReport": "Tải báo cáo",
+    "retakeTest": "Làm lại bài kiểm tra",
+    "totalScore": "Tổng điểm",
+    "percentile": "Thứ hạng phần trăm",
+    "accuracy": "Độ chính xác",
+    "totalTime": "Tổng thời gian",
+    "minutes": "Phút",
+    "vsOtherTestTakers": "so với thí sinh khác",
+    "outOf": "trên",
+    "totalTimeLabel": "tổng thời gian",
+    "correct": "Đúng",
+    "incorrect": "Sai",
+    "noAnswer": "Không trả lời",
+    "overview": "Tổng quan",
+    "detailedResults": "Kết quả chi tiết",
+    "performanceByModule": "Kết quả theo môn học",
+    "performanceByDifficulty": "Kết quả theo độ khó",
+    "readingWriting": "Đọc hiểu & Viết",
+    "math": "Toán",
+    "easy": "Dễ",
+    "medium": "Trung bình",
+    "hard": "Khó",
+    "questionNumber": "#",
+    "result": "Kết quả",
+    "skill": "Kỹ năng",
+    "topic": "Chủ đề",
+    "difficulty": "Độ khó",
+    "yourAnswer": "Câu trả lời của bạn",
+    "correctAnswer": "Đáp án đúng",
+    "time": "Thời gian",
+    "score": "Điểm",
+    "loading": "Đang tải kết quả...",
+    "errorLoading": "Lỗi tải kết quả",
+    "errorMessage": "Không thể tải kết quả bài kiểm tra. Vui lòng thử lại.",
+    "backToTestsButton": "Quay lại bài kiểm tra",
+    "tryAgain": "Thử lại",
+    "noResultsFound": "Không tìm thấy kết quả",
+    "noResultsMessage": "Không thể tìm thấy kết quả cho bài kiểm tra này.",
+    "redirecting": "Đang chuyển hướng đến kết quả...",
+    "testCompleted": "Hoàn thành bài kiểm tra"
+  },
+  "payos": {
+    "title": "Nâng cấp lên Premium",
+    "subtitle": "Bạn đã sử dụng hết {{trials}} lượt thử miễn phí",
+    "trialEnded": "Kết thúc thời gian thử",
+    "trialMessage": "Bạn còn {{trials}} lượt thử miễn phí",
+    "monthly": "Hàng tháng",
+    "yearly": "Hàng năm",
+    "popular": "Phổ biến nhất",
+    "save": "Tiết kiệm",
+    "whatYouGet": "Những gì bạn nhận được:",
+    "features": {
+      "unlimited": "Bài thi SAT không giới hạn",
+      "detailed": "Phân tích hiệu suất chi tiết",
+      "progress": "Theo dõi tiến độ & thông tin chi tiết",
+      "support": "Hỗ trợ khách hàng ưu tiên",
+      "updates": "Truy cập sớm các tính năng mới"
+    },
+    "payNow": "Nâng cấp ngay",
+    "processing": "Đang xử lý...",
+    "securePayment": "Thanh toán an toàn được hỗ trợ bởi PayOS"
+  },
+  "admin": {
+    "common": {
+      "dashboard": "Bảng điều khiển",
+      "users": "Người dùng",
+      "content": "Nội dung",
+      "settings": "Cài đặt",
+      "actions": "Thao tác",
+      "logout": "Đăng xuất",
+      "search": "Tìm kiếm",
+      "notifications": "Thông báo",
+      "profile": "Hồ sơ",
+      "systemSettings": "Cài đặt hệ thống",
+      "help": "Trung tâm trợ giúp",
+      "userManagement": "Quản lý người dùng",
+      "contentManagement": "Quản lý nội dung",
+      "questionBank": "Ngân hàng câu hỏi",
+      "createQuestion": "Tạo câu hỏi",
+      "createTutor": "Tạo gia sư",
+      "analytics": "Phân tích & Báo cáo",
+      "language": "Ngôn ngữ",
+      "ticketingSystem": "Hệ thống hỗ trợ"
+    },
+    "sidebar": {
+      "userManagement": "Quản lý người dùng",
+      "users": "Người dùng",
+      "rolesPermissions": "Vai trò & Quyền hạn",
+      "satContent": "Nội dung SAT",
+      "structure": "Cấu trúc",
+      "questionBank": "Ngân hàng câu hỏi",
+      "testManagement": "Quản lý bài thi",
+      "createTest": "Tạo bài thi",
+      "manageTests": "Quản lý bài thi",
+      "testResults": "Kết quả bài thi",
+      "system": "Hệ thống",
+      "settings": "Cài đặt",
+      "support": "Hỗ trợ",
+      "tickets": "Yêu cầu hỗ trợ"
+    },
+    "modules": {
+      "module": "Module",
+      "modules": "Các Module",
+      "add": "Thêm Module",
+      "edit": "Chỉnh sửa Module",
+      "name": "Tên Module",
+      "instruction": "Hướng dẫn",
+      "distribution": "Phân phối",
+      "confirmDelete": "Bạn có chắc chắn muốn xóa module này?",
+      "created": "Đã tạo module thành công",
+      "updated": "Đã cập nhật module thành công",
+      "deleted": "Đã xóa module thành công"
+    },
+    "domains": {
+      "domain": "Lĩnh vực",
+      "domains": "Các lĩnh vực",
+      "add": "Thêm lĩnh vực",
+      "edit": "Chỉnh sửa lĩnh vực",
+      "name": "Tên lĩnh vực",
+      "confirmDelete": "Bạn có chắc chắn muốn xóa lĩnh vực này?",
+      "created": "Đã tạo lĩnh vực thành công",
+      "updated": "Đã cập nhật lĩnh vực thành công",
+      "deleted": "Đã xóa lĩnh vực thành công"
+    },
+    "dashboard": {
+      "title": "Bảng điều khiển quản trị",
+      "totalUsers": "Tổng số người dùng",
+      "activeUsers": "Người dùng đang hoạt động",
+      "completedTests": "Bài kiểm tra đã hoàn thành",
+      "today": "hôm nay",
+      "ofTotal": "trong tổng số",
+      "perUser": "mỗi người dùng",
+      "userActivity": "Hoạt động người dùng",
+      "last7Days": "7 ngày qua",
+      "last14Days": "14 ngày qua",
+      "last30Days": "30 ngày qua",
+      "recentActivity": "Hoạt động gần đây",
+      "user": "Người dùng",
+      "users": "Người dùng",
+      "tests": "Bài kiểm tra",
+      "activity": "Hoạt động",
+      "time": "Thời gian",
+      "hoursAgo": "giờ trước",
+      "sampleActivity1": "Đã hoàn thành bài kiểm tra thử",
+      "sampleActivity2": "Đã đăng ký khóa học mới",
+      "sampleActivity3": "Đã cập nhật thông tin cá nhân",
+      "sampleActivity4": "Đã hoàn thành một module",
+      "sampleActivity5": "Đã bắt đầu bài kiểm tra mới"
+    },
+    "users": {
+      "title": "Quản Lý Người Dùng",
+      "subtitle": "Quản lý và giám sát tất cả người dùng hệ thống một cách hiệu quả",
+      "roles": {
+        "all": "Tất Cả Vai Trò",
+        "admin": "Quản Trị Viên",
+        "staff": "Nhân Viên",
+        "student": "Học Sinh",
+        "parent": "Phụ Huynh",
+        "tutor": "Gia Sư"
+      },
+      "status": {
+        "all": "Tất Cả Trạng Thái",
+        "active": "Hoạt Động",
+        "unverified": "Chưa Xác Thực",
+        "inactive": "Không Hoạt Động",
+        "unknown": "Không Xác Định"
+      },
+      "stats": {
+        "totalUsers": "Tổng Người Dùng",
+        "activeUsers": "Người Dùng Hoạt Động",
+        "students": "Học Sinh",
+        "admins": "Quản Trị Viên"
+      },
+      "search": {
+        "placeholder": "Tìm kiếm theo tên, email hoặc ID..."
+      },
+      "filters": {
+        "role": "Lọc theo vai trò",
+        "status": "Trạng Thái"
+      },
+      "actions": {
+        "export": "Xuất Danh Sách",
+        "import": "Nhập Danh Sách",
+        "addUser": "Thêm Người Dùng Mới",
+        "applyFilters": "Áp Dụng Bộ Lọc",
+        "clearFilters": "Xóa Tất Cả",
+        "addFirstUser": "Thêm Người Dùng Đầu Tiên",
+        "viewProfile": "Xem Hồ Sơ Đầy Đủ",
+        "editUser": "Chỉnh Sửa Thông Tin",
+        "managePermissions": "Quản Lý Quyền",
+        "deactivate": "Vô Hiệu Hóa Tài Khoản",
+        "activate": "Kích Hoạt Tài Khoản",
+        "deleteUser": "Xóa Người Dùng"
+      },
+      "table": {
+        "title": "Danh Sách Người Dùng ({{total}} tổng cộng)",
+        "showing": "Hiển thị {{count}} người dùng mỗi trang",
+        "headers": {
+          "userDetails": "Thông Tin Người Dùng",
+          "contact": "Thông Tin Liên Hệ",
+          "roleStatus": "Vai Trò & Trạng Thái",
+          "joinDate": "Ngày Tham Gia",
+          "location": "Địa Điểm",
+          "actions": "Hành Động"
+        },
+        "userNumber": "Người dùng #{{number}}",
+        "noPhone": "Không có số điện thoại",
+        "noLocation": "Không có thông tin"
+      },
+      "empty": {
+        "title": "Không tìm thấy người dùng",
+        "description": "Hãy thử điều chỉnh tiêu chí tìm kiếm hoặc bộ lọc để tìm người dùng."
+      },
+      "pagination": {
+        "showing": "Hiển thị {{from}} đến {{to}} của {{total}} tổng số người dùng"
+      },
+      "createModal": {
+        "title": "Thêm Người Dùng Mới",
+        "description": "Thêm người dùng mới vào hệ thống. Mật khẩu tạm thời sẽ được tạo ra.",
+        "accountSetup": "Thiết Lập Tài Khoản",
+        "passwordInfo": "Mật khẩu tạm thời sẽ được tạo và hiển thị sau khi tạo. Người dùng sẽ được yêu cầu thay đổi nó khi đăng nhập lần đầu.",
+        "creating": "Đang Tạo",
+        "createUser": "Tạo Người Dùng"
+      },
+      "form": {
+        "firstName": "Tên",
+        "lastName": "Họ",
+        "email": "Địa chỉ Email",
+        "phoneNumber": "Số điện thoại",
+        "role": "Vai trò",
+        "password": "Mật khẩu",
+        "address": "Địa chỉ",
+        "detailAddress": "Địa chỉ chi tiết",
+        "fullAddress": "Địa chỉ đầy đủ",
+        "accountStatus": "Trạng thái tài khoản",
+        "dateOfBirth": "Ngày sinh",
+        "gender": "Giới tính",
+        "addressInfo": "Thông tin địa chỉ (Tùy chọn)",
+        "province": "Tỉnh/Thành phố",
+        "district": "Quận/Huyện",
+        "ward": "Phường/Xã",
+        "educationLevel": "Trình độ học vấn",
+        "firstNamePlaceholder": "Nhập tên",
+        "lastNamePlaceholder": "Nhập họ",
+        "emailPlaceholder": "Nhập địa chỉ email",
+        "passwordPlaceholder": "Để trống để tự động tạo",
+        "passwordHint": "Để trống để tự động tạo mật khẩu tạm thời",
+        "detailAddressPlaceholder": "Số nhà, tên đường, v.v.",
+        "selectProvince": "Chọn Tỉnh/Thành phố",
+        "selectDistrict": "Chọn Quận/Huyện",
+        "selectWard": "Chọn Phường/Xã",
+        "selectProvinceFirst": "Chọn tỉnh/thành phố trước",
+        "selectDistrictFirst": "Chọn quận/huyện trước",
+        "selectRole": "Chọn vai trò",
+        "selectGender": "Chọn giới tính",
+        "selectEducation": "Chọn trình độ học vấn",
+        "provincePlaceholder": "Thành phố Hồ Chí Minh",
+        "districtPlaceholder": "Quận 1",
+        "wardPlaceholder": "Phường 1",
+        "male": "Nam",
+        "female": "Nữ",
+        "other": "Khác",
+        "secondarySchool": "Trung học cơ sở",
+        "highSchool": "Trung học phổ thông",
+        "college": "Cao đẳng/Đại học"
+      },
+      "validation": {
+        "firstNameRequired": "Tên là bắt buộc",
+        "lastNameRequired": "Họ là bắt buộc",
+        "emailRequired": "Email là bắt buộc",
+        "emailInvalid": "Định dạng email không hợp lệ",
+        "phoneInvalid": "Định dạng số điện thoại Việt Nam không hợp lệ",
+        "roleRequired": "Vai trò là bắt buộc"
+      },
+      "sections": {
+        "personalInfo": "Thông tin cá nhân",
+        "personalInfoDesc": "Thông tin cơ bản và định danh cá nhân",
+        "contactInfo": "Thông tin liên lạc",
+        "contactInfoDesc": "Thông tin email và điện thoại để liên lạc",
+        "locationInfo": "Thông tin vị trí",
+        "locationInfoDesc": "Địa chỉ và thông tin địa lý",
+        "accountSecurity": "Bảo mật tài khoản",
+        "accountSecurityDesc": "Thông tin đăng nhập và mật khẩu"
+      },
+      "preview": {
+        "title": "Xem trước người dùng"
+      },
+      "roleDescriptions": {
+        "admin": "Quyền truy cập và quản lý hệ thống đầy đủ",
+        "staff": "Quyền quản trị để quản lý người dùng và nội dung",
+        "student": "Truy cập các khóa học và tài liệu học tập",
+        "tutor": "Khả năng giảng dạy và quản lý khóa học",
+        "parent": "Theo dõi tiến độ và hoạt động của con em"
+      },
+      "success": {
+        "userCreated": "Tạo người dùng thành công! Mật khẩu tạm thời: {{password}}"
+      },
+      "errors": {
+        "loadFailed": "Không thể tải danh sách người dùng",
+        "createFailed": "Không thể tạo người dùng. Vui lòng thử lại."
+      }
+    },
+    "content": {
+      "title": "Quản lý nội dung",
+      "tests": "Bài kiểm tra",
+      "courses": "Khóa học",
+      "questions": "Câu hỏi",
+      "resources": "Tài nguyên",
+      "addNew": "Thêm mới",
+      "search": "Tìm kiếm nội dung...",
+      "filter": "Lọc",
+      "contentTitle": "Tiêu đề",
+      "type": "Loại",
+      "status": "Trạng thái",
+      "dateCreated": "Ngày tạo",
+      "actions": "Thao tác",
+      "edit": "Chỉnh sửa",
+      "delete": "Xóa",
+      "view": "Xem chi tiết",
+      "published": "Đã xuất bản",
+      "draft": "Bản nháp",
+      "archived": "Đã lưu trữ",
+      "confirmDelete": "Bạn có chắc chắn muốn xóa nội dung này?",
+      "contentDeleted": "Đã xóa nội dung thành công",
+      "contentAdded": "Đã thêm nội dung thành công",
+      "contentUpdated": "Đã cập nhật nội dung thành công",
+      "createNew": "Tạo mới",
+      "practice": "Thực hành",
+      "statusPublished": "Đã xuất bản",
+      "statusDraft": "Bản nháp",
+      "courseTitle": "Tiêu đề khóa học",
+      "level": "Cấp độ",
+      "lessons": "Bài học",
+      "enrolledStudents": "Học viên đã đăng ký",
+      "testTitle": "Tiêu đề bài kiểm tra",
+      "duration": "Thời lượng",
+      "attempts": "Lượt thử",
+      "practiceTitle": "Tiêu đề thực hành",
+      "category": "Danh mục",
+      "sessions": "Phiên"
+    },
+    "questionTypes": {
+      "add": "Thêm loại câu hỏi mới",
+      "edit": "Chỉnh sửa loại câu hỏi",
+      "name": "Tên loại câu hỏi",
+      "namePlaceholder": "Nhập tên loại câu hỏi",
+      "questionType": "Loại câu hỏi",
+      "questionTypes": "Các loại câu hỏi",
+      "confirmDelete": "Bạn có chắc chắn muốn xóa loại câu hỏi này?",
+      "create": "Tạo loại câu hỏi mới"
+    },
+    "questions": {
+      "viewAll": "Xem tất cả câu hỏi",
+      "all": "Tất cả câu hỏi"
+    },
+    "accounts": {
+      "contact": "Liên hệ",
+      "activate": "Kích hoạt tài khoản",
+      "deactivate": "Vô hiệu hóa tài khoản",
+      "activated": "Đã kích hoạt tài khoản thành công",
+      "deactivated": "Đã vô hiệu hóa tài khoản thành công",
+      "confirmActivate": "Bạn có chắc chắn muốn kích hoạt tài khoản này?",
+      "confirmDeactivate": "Bạn có chắc chắn muốn vô hiệu hóa tài khoản này?",
+      "status": {
+        "active": "Đang hoạt động",
+        "inactive": "Không hoạt động",
+        "unverified": "Chưa xác thực",
+        "pending": "Đang chờ",
+        "suspended": "Tạm khóa",
+        "banned": "Đã cấm"
+      },
+      "actions": {
+        "viewDetails": "Xem chi tiết",
+        "editProfile": "Chỉnh sửa hồ sơ",
+        "resetPassword": "Đặt lại mật khẩu",
+        "suspend": "Tạm khóa tài khoản",
+        "ban": "Cấm tài khoản",
+        "unban": "Bỏ cấm tài khoản"
+      },
+      "filters": {
+        "all": "Tất cả tài khoản",
+        "active": "Tài khoản đang hoạt động",
+        "inactive": "Tài khoản không hoạt động",
+        "pending": "Tài khoản đang chờ",
+        "suspended": "Tài khoản tạm khóa",
+        "banned": "Tài khoản bị cấm"
+      },
+      "online": "Trực tuyến",
+      "offline": "Ngoại tuyến",
+      "lastSeen": "Lần cuối truy cập",
+      "lastActive": "Hoạt động lần cuối",
+      "add": "Thêm tài khoản",
+      "edit": "Chỉnh sửa tài khoản",
+      "delete": "Xóa tài khoản",
+      "filterName": "Lọc theo tên",
+      "filterEmail": "Lọc theo email",
+      "filterRole": "Lọc theo vai trò",
+      "filterStatus": "Lọc theo trạng thái",
+      "filterDate": "Lọc theo ngày",
+      "search": "Tìm kiếm tài khoản",
+      "export": "Xuất danh sách",
+      "import": "Nhập danh sách",
+      "bulkActions": "Thao tác hàng loạt",
+      "selectAll": "Chọn tất cả",
+      "selected": "Đã chọn {{count}} mục",
+      "noResults": "Không tìm thấy tài khoản nào",
+      "confirmDelete": "Bạn có chắc chắn muốn xóa tài khoản này?",
+      "confirmBulkDelete": "Bạn có chắc chắn muốn xóa {{count}} tài khoản?",
+      "accountDetails": "Chi tiết tài khoản",
+      "personalInfo": "Thông tin cá nhân",
+      "contactInfo": "Thông tin liên hệ",
+      "accountSettings": "Cài đặt tài khoản",
+      "accountHistory": "Lịch sử tài khoản",
+      "lastLogin": "Đăng nhập lần cuối",
+      "registrationDate": "Ngày đăng ký",
+      "accountType": "Loại tài khoản",
+      "verificationStatus": "Trạng thái xác thực",
+      "verified": "Đã xác thực",
+      "unverified": "Chưa xác thực",
+      "pending": "Đang chờ xác thực",
+      "details": "Chi tiết tài khoản",
+      "account": "Tài khoản",
+      "gender": "Giới tính",
+      "dob": "Ngày sinh",
+      "education": "Trình độ học vấn",
+      "role": "Vai trò",
+      "since": "Thành viên từ",
+      "status": "Trạng thái",
+      "address": "Địa chỉ",
+      "notProvided": "Chưa cung cấp",
+      "selected": "Đã chọn {{count}} mục",
+      "confirmBulkDelete_plural": "Bạn có chắc chắn muốn xóa {{count}} tài khoản?",
+      "firstName": "Họ",
+      "lastName": "Tên",
+      "email": "Email",
+      "phone": "Số điện thoại",
+      "password": "Mật khẩu",
+      "create": "Tạo tài khoản",
+      "student": "Học sinh",
+      "tutor": "Gia sư",
+      "admin": "Quản trị viên",
+      "parent": "Phụ huynh",
+      "roleNotEditable": "Vai trò không thể thay đổi trong chế độ chỉnh sửa",
+      "emailNotEditable": "Email không thể thay đổi trong chế độ chỉnh sửa",
+      "phoneNotEditable": "Số điện thoại không thể thay đổi trong chế độ chỉnh sửa",
+      "roles": {
+        "admin": "Quản trị viên",
+        "staff": "Nhân viên",
+        "tutor": "Giáo viên",
+        "student": "Học sinh",
+        "parent": "Phụ huynh"
+      },
+      "createAccount": "Tạo tài khoản"
+    }
+  },
+  "common": {
+    "edit": "Chỉnh sửa",
+    "view": "Xem",
+    "add": "Thêm",
+    "cancel": "Hủy",
+    "save": "Lưu",
+    "submit": "Gửi",
+    "continue": "Tiếp tục",
+    "delete": "Xóa",
+    "search": "Tìm kiếm",
+    "successfully": "thành công",
+    "failed": "thất bại",
+    "ipp": "Số mục mỗi trang",
+    "minuteAgo": "phút trước",
+    "minutesAgo": "phút trước",
+    "sort": "Sắp xếp",
+    "sortCriteria": "Tiêu chí sắp xếp",
+    "filterRole": "Lọc theo vai trò",
+    "filterStatus": "Lọc theo trạng thái",
+    "tableHeaders": {
+      "id": "ID",
+      "name": "Tên",
+      "email": "Email",
+      "role": "Vai trò",
+      "status": "Trạng thái",
+      "actions": "Thao tác",
+      "joinDate": "Ngày tham gia",
+      "lastActive": "Hoạt động lần cuối"
+    },
+    "message": {
+      "required": "không được để trống"
+    },
+    "plurals": {
+      "item": "mục",
+      "item_plural": "mục",
+      "user": "người dùng",
+      "user_plural": "người dùng",
+      "account": "tài khoản",
+      "account_plural": "tài khoản",
+      "question": "câu hỏi",
+      "question_plural": "câu hỏi",
+      "test": "bài kiểm tra",
+      "test_plural": "bài kiểm tra",
+      "course": "khóa học",
+      "course_plural": "khóa học",
+      "module": "module",
+      "module_plural": "module",
+      "domain": "lĩnh vực",
+      "domain_plural": "lĩnh vực",
+      "entry": "mục",
+      "entry_plural": "mục",
+      "result": "kết quả",
+      "result_plural": "kết quả",
+      "record": "bản ghi",
+      "record_plural": "bản ghi",
+      "file": "tệp",
+      "file_plural": "tệp"
+    },
+    "time": {
+      "minute": "phút",
+      "minute_plural": "phút",
+      "hour": "giờ",
+      "hour_plural": "giờ",
+      "day": "ngày",
+      "day_plural": "ngày",
+      "week": "tuần",
+      "week_plural": "tuần",
+      "month": "tháng",
+      "month_plural": "tháng",
+      "year": "năm",
+      "year_plural": "năm",
+      "minuteAgo": "1 phút trước",
+      "minutesAgo": "{{count}} phút trước",
+      "hourAgo": "1 giờ trước",
+      "hoursAgo": "{{count}} giờ trước",
+      "dayAgo": "1 ngày trước",
+      "daysAgo": "{{count}} ngày trước",
+      "weekAgo": "1 tuần trước",
+      "weeksAgo": "{{count}} tuần trước",
+      "monthAgo": "1 tháng trước",
+      "monthsAgo": "{{count}} tháng trước",
+      "yearAgo": "1 năm trước",
+      "yearsAgo": "{{count}} năm trước",
+      "justNow": "vừa xong"
+    },
+    "pagination": {
+      "first": "Đầu",
+      "last": "Cuối",
+      "next": "Tiếp",
+      "previous": "Trước",
+      "page": "Trang",
+      "of": "trên",
+      "showing": "Hiển thị",
+      "to": "đến",
+      "total": "tổng số",
+      "ipp": "Số mục mỗi trang",
+      "goToPage": "Đi đến trang",
+      "entries": "mục",
+      "show": "Hiển thị",
+      "items": "mục",
+      "item": "{{count}} mục",
+      "item_plural": "{{count}} mục",
+      "selected": "Đã chọn {{count}} mục"
+    },
+    "table": {
+      "noData": "Không có dữ liệu",
+      "loading": "Đang tải dữ liệu...",
+      "error": "Lỗi tải dữ liệu",
+      "retry": "Thử lại",
+      "filter": "Lọc",
+      "clearFilter": "Xóa bộ lọc",
+      "export": "Xuất",
+      "columns": "Cột",
+      "row": "Đã chọn {{count}} dòng",
+      "row_plural": "Đã chọn {{count}} dòng"
+    },
+    "filters": {
+      "apply": "Áp dụng bộ lọc",
+      "clear": "Xóa bộ lọc",
+      "clearAll": "Xóa tất cả",
+      "more": "Thêm bộ lọc",
+      "less": "Ẩn bớt",
+      "dateRange": "Khoảng thời gian",
+      "from": "Từ",
+      "to": "Đến",
+      "custom": "Tùy chỉnh",
+      "today": "Hôm nay",
+      "yesterday": "Hôm qua",
+      "lastWeek": "Tuần trước",
+      "lastMonth": "Tháng trước",
+      "lastYear": "Năm trước"
+    },
+    "dataEmpty": "Không tìm thấy dữ liệu",
+    "dataEmptyExt": "Không tìm thấy bản ghi phù hợp. Hãy thử điều chỉnh bộ lọc hoặc thêm tài khoản mới.",
+    "notProvided": "Chưa cung cấp",
+    "loading": "Đang tải",
+    "cancel": "Hủy",
+    "refresh": "Làm mới",
+    "apply": "Áp dụng",
+    "clear": "Xóa"
+  },
+  "notFound": {
+    "title": "Không Tìm Thấy Trang",
+    "message": "Trang bạn đang tìm kiếm không tồn tại hoặc đã được di chuyển.",
+    "suggestion": "Vui lòng kiểm tra URL hoặc sử dụng điều hướng bên dưới để tìm những gì bạn đang tìm kiếm.",
+    "backHome": "Về Trang Chủ",
+    "browseTests": "Duyệt Bài Kiểm Tra",
+    "helpText": "Nếu bạn tin rằng đây là lỗi, vui lòng liên hệ với đội hỗ trợ của chúng tôi."
+  },
+  "unauthorized": {
+    "title": "Từ Chối Truy Cập",
+    "message": "Bạn không có quyền truy cập vào tài nguyên này. Vui lòng liên hệ với quản trị viên nếu bạn tin rằng đây là lỗi.",
+    "backHome": "Về Trang Chủ",
+    "helpText": "Nếu bạn cần quyền truy cập vào khu vực này, vui lòng liên hệ với quản trị viên hệ thống của bạn."
+  },
+  "profile": {
+    "title": "Hồ Sơ Của Tôi",
+    "subtitle": "Quản lý thông tin tài khoản và tùy chọn giáo dục",
+    "notAuthenticated": "Vui lòng đăng nhập để xem hồ sơ của bạn",
+    "loading": "Đang tải hồ sơ...",
+    "error": "Lỗi tải hồ sơ",
+    "retry": "Thử Lại",
+    "updated": "Cập nhật hồ sơ thành công",
+    "updateFailed": "Cập nhật hồ sơ thất bại",
+    "tabs": {
+      "overview": "Tổng Quan",
+      "edit": "Chỉnh Sửa Hồ Sơ",
+      "schedule": "Lịch Trình",
+      "security": "Bảo Mật",
+      "achievements": "Thành Tựu",
+      "activity": "Hoạt Động"
+    },
+    "header": {
+      "welcome": "Chào mừng trở lại,",
+      "memberSince": "Thành viên từ",
+      "lastLogin": "Đăng nhập lần cuối",
+      "online": "Trực tuyến",
+      "offline": "Ngoại tuyến"
+    },
+    "overview": {
+      "title": "Tổng Quan Hồ Sơ",
+      "accountDetails": "Chi Tiết Tài Khoản",
+      "accountStatus": "Trạng Thái Tài Khoản",
+      "stats": "Thống Kê Của Tôi",
+      "recentActivity": "Hoạt Động Gần Đây"
+    },
+    "edit": {
+      "title": "Chỉnh Sửa Hồ Sơ",
+      "personalInfo": "Thông Tin Cá Nhân",
+      "contactInfo": "Thông Tin Liên Hệ",
+      "academicInfo": "Thông Tin Học Tập",
+      "preferences": "Tùy Chọn",
+      "avatar": "Ảnh Đại Diện",
+      "uploadAvatar": "Tải Ảnh Mới",
+      "removeAvatar": "Xóa Ảnh",
+      "selectImage": "Chọn Ảnh",
+      "cropInstruction": "Điều chỉnh vùng cắt cho ảnh đại diện",
+      "imageRequirements": "Tối đa 5MB • JPG, PNG, GIF",
+      "currentAvatar": "Ảnh Đại Diện Hiện Tại",
+      "avatarHint": "Nhấp để tải ảnh đại diện mới",
+      "emailReadonly": "Email không thể thay đổi"
+    },
+    "fields": {
+      "firstName": "Tên",
+      "lastName": "Họ",
+      "username": "Tên Đăng Nhập",
+      "email": "Địa Chỉ Email",
+      "phoneNumber": "Số Điện Thoại",
+      "address": "Địa Chỉ",
+      "province": "Tỉnh/Thành phố",
+      "district": "Quận/Huyện",
+      "ward": "Phường/Xã",
+      "currentAddress": "Địa Chỉ Hiện Tại",
+      "gender": "Giới Tính",
+      "dob": "Ngày Sinh",
+      "status": "Trạng Thái",
+      "role": "Vai Trò",
+      "avatar": "Ảnh Đại Diện",
+      "createdAt": "Thành Viên Từ",
+      "updatedAt": "Cập Nhật Lần Cuối",
+      "bio": "Tiểu Sử",
+      "interests": "Sở Thích",
+      "goals": "Mục Tiêu Học Tập",
+      "level": "Trình Độ Hiện Tại",
+      "timezone": "Múi Giờ",
+      "language": "Ngôn Ngữ Ưa Thích",
+      "notifications": "Thông Báo Email"
+    },
+    "placeholders": {
+      "firstName": "Nhập tên của bạn",
+      "lastName": "Nhập họ của bạn",
+      "email": "Nhập địa chỉ email",
+      "phoneNumber": "Nhập số điện thoại",
+      "address": "Nhập địa chỉ của bạn",
+      "province": "Chọn tỉnh/thành phố",
+      "district": "Chọn quận/huyện",
+      "ward": "Chọn phường/xã",
+      "noAddress": "Chưa có địa chỉ",
+      "bio": "Hãy kể về bản thân bạn...",
+      "interests": "Bạn quan tâm đến gì?",
+      "goals": "Bạn muốn đạt được điều gì?"
+    },
+    "gender": {
+      "male": "Nam",
+      "female": "Nữ",
+      "other": "Khác",
+      "notSpecified": "Không xác định"
+    },
+    "roles": {
+      "admin": "Quản Trị Viên",
+      "tutor": "Gia Sư",
+      "student": "Học Sinh",
+      "parent": "Phụ Huynh"
+    },
+    "status": {
+      "active": "Hoạt Động",
+      "inactive": "Không Hoạt Động",
+      "pending": "Đang Chờ",
+      "suspended": "Bị Đình Chỉ",
+      "verified": "Đã Xác Thực",
+      "unverified": "Chưa Xác Thực"
+    },
+    "statistics": {
+      "testsCompleted": "Bài Kiểm Tra Hoàn Thành",
+      "coursesEnrolled": "Khóa Học Đã Tham Gia",
+      "hoursLearned": "Giờ Học",
+      "certificatesEarned": "Chứng Chỉ Đạt Được",
+      "averageScore": "Điểm Trung Bình",
+      "streakDays": "Chuỗi Học Tập",
+      "totalPoints": "Tổng Điểm",
+      "rank": "Thứ Hạng Hiện Tại"
+    },
+    "achievements": {
+      "title": "Thành Tựu & Huy Hiệu",
+      "earned": "Đã Đạt",
+      "progress": "Đang Tiến Hành",
+      "locked": "Đã Khóa",
+      "viewAll": "Xem Tất Cả Thành Tựu",
+      "earnedDate": "Đạt được vào"
+    },
+    "activity": {
+      "title": "Hoạt Động Gần Đây",
+      "noActivity": "Không có hoạt động gần đây",
+      "viewAll": "Xem Tất Cả Hoạt Động",
+      "types": {
+        "testCompleted": "Hoàn thành bài kiểm tra",
+        "courseEnrolled": "Tham gia khóa học",
+        "badgeEarned": "Đạt huy hiệu",
+        "profileUpdated": "Cập nhật hồ sơ",
+        "levelUp": "Tăng cấp"
+      }
+    },
+    "schedule": {
+      "title": "Lịch Trình Của Tôi",
+      "subtitle": "Xem và quản lý các lớp học và sự kiện sắp tới",
+      "noEvents": "Không có sự kiện đã lên lịch",
+      "createEvent": "Tạo Sự Kiện",
+      "viewCalendar": "Xem Lịch",
+      "upcomingClasses": "Lớp Học Sắp Tới",
+      "todaySchedule": "Lịch Trình Hôm Nay",
+      "weekView": "Xem Theo Tuần",
+      "monthView": "Xem Theo Tháng",
+      "dayView": "Xem Theo Ngày"
+    },
+    "actions": {
+      "edit": "Chỉnh Sửa Hồ Sơ",
+      "save": "Lưu Thay Đổi",
+      "cancel": "Hủy",
+      "saving": "Đang lưu...",
+      "viewPublic": "Xem Hồ Sơ Công Khai",
+      "downloadCertificate": "Tải Chứng Chỉ",
+      "shareProgress": "Chia Sẻ Tiến Độ"
+    },
+    "security": {
+      "title": "Cài Đặt Bảo Mật",
+      "currentPassword": "Mật Khẩu Hiện Tại",
+      "newPassword": "Mật Khẩu Mới",
+      "confirmPassword": "Xác Nhận Mật Khẩu Mới",
+      "currentPasswordPlaceholder": "Nhập mật khẩu hiện tại",
+      "newPasswordPlaceholder": "Nhập mật khẩu mới",
+      "confirmPasswordPlaceholder": "Xác nhận mật khẩu mới",
+      "changePassword": "Đổi Mật Khẩu",
+      "changing": "Đang thay đổi...",
+      "passwordHint": "Mật khẩu phải có ít nhất 8 ký tự, 1 chữ hoa, 1 ký tự đặc biệt và không có khoảng trắng",
+      "twoFactor": "Xác Thực Hai Yếu Tố",
+      "enable2FA": "Bật 2FA",
+      "disable2FA": "Tắt 2FA",
+      "sessions": "Phiên Hoạt Động",
+      "revokeSession": "Thu Hồi Phiên"
+    },
+    "validation": {
+      "required": "Trường này là bắt buộc",
+      "invalidEmail": "Vui lòng nhập địa chỉ email hợp lệ",
+      "invalidPhone": "Vui lòng nhập số điện thoại hợp lệ",
+      "passwordMismatch": "Mật khẩu không khớp",
+      "weakPassword": "Mật khẩu quá yếu",
+      "passwordTooShort": "Mật khẩu phải có ít nhất 8 ký tự",
+      "passwordNoUppercase": "Mật khẩu phải chứa ít nhất một chữ hoa",
+      "passwordNoSpecial": "Mật khẩu phải chứa ít nhất một ký tự đặc biệt",
+      "passwordNoSpaces": "Mật khẩu không được chứa khoảng trắng",
+      "incorrectCurrentPassword": "Mật khẩu hiện tại không đúng",
+      "unauthorized": "Không có quyền truy cập. Vui lòng đăng nhập lại",
+      "serverError": "Lỗi máy chủ. Vui lòng thử lại sau",
+      "invalidFileType": "Vui lòng chọn file ảnh",
+      "fileTooLarge": "Kích thước file phải nhỏ hơn 5MB",
+      "uploadFailed": "Tải ảnh thất bại. Vui lòng thử lại."
+    },
+    "success": {
+      "profileUpdated": "Cập nhật hồ sơ thành công!",
+      "passwordChanged": "Đổi mật khẩu thành công!",
+      "avatarUploaded": "Cập nhật ảnh đại diện thành công!"
+    },
+    "avatar": {
+      "updateSuccess": "Cập nhật ảnh đại diện thành công!"
+    },
+    "updateSuccess": "Cập nhật hồ sơ thành công!",
+    "updateFailed": "Cập nhật hồ sơ thất bại"
+  },
+  "staff": {
+    "common": {
+      "dashboard": "Bảng điều khiển",
+      "tickets": "Phiếu hỗ trợ",
+      "profile": "Hồ sơ",
+      "settings": "Cài đặt"
+    },
+    "sidebar": {
+      "ticketManagement": "Quản lý phiếu hỗ trợ",
+      "assignedTickets": "Phiếu được phân công",
+      "tutorManagement": "Quản lý gia sư",
+      "manageTutors": "Quản lý gia sư",
+
+      "courseManagement": "Quản lý khóa học",
+      "manageCourses": "Quản lý khóa học",
+      "manageClasses": "Quản lý lớp học",
+      "calendar": "Lịch",
+      "system": "Hệ thống",
+      "settings": "Cài đặt"
+    },
+    "dashboard": {
+      "title": "Bảng điều khiển nhân viên",
+      "welcome": "Chào mừng trở lại",
+      "subtitle": "Đây là tổng quan về các phiếu hỗ trợ được phân công và hiệu suất của bạn",
+      "stats": {
+        "assignedTickets": "Phiếu được phân công",
+        "pending": "Đang chờ xử lý",
+        "inProgress": "Đang xử lý",
+        "completedToday": "Hoàn thành hôm nay"
+      },
+      "performance": {
+        "title": "Hiệu suất tuần",
+        "ticketsResolved": "Phiếu đã giải quyết",
+        "avgResponseTime": "Thời gian phản hồi trung bình",
+        "customerSatisfaction": "Độ hài lòng khách hàng"
+      },
+      "achievements": {
+        "title": "Thành tựu gần đây"
+      },
+      "quickActions": {
+        "title": "Thao tác nhanh",
+        "viewAllTickets": "Xem tất cả phiếu được phân công",
+        "checkPending": "Kiểm tra phiếu chờ xử lý",
+        "updateProfile": "Cập nhật hồ sơ"
+      }
+    },
+    "tutors": {
+      "title": "Quản lý gia sư",
+      "subtitle": "Quản lý gia sư, hồ sơ và thông tin giảng dạy",
+      "addNew": "Thêm gia sư mới",
+      "stats": {
+        "total": "Tổng số gia sư",
+        "active": "Đang hoạt động",
+        "inactive": "Không hoạt động",
+        "avgRating": "Đánh giá trung bình"
+      },
+      "form": {
+        "userInfo": "Thông tin người dùng",
+        "teachingInfo": "Thông tin giảng dạy",
+        "firstName": "Tên",
+        "lastName": "Họ",
+        "email": "Email",
+        "phoneNumber": "Số điện thoại",
+        "dateOfBirth": "Ngày sinh",
+        "gender": "Giới tính",
+        "province": "Tỉnh/Thành phố",
+        "district": "Quận/Huyện",
+        "ward": "Phường/Xã",
+        "major": "Chuyên ngành",
+        "shortDescription": "Mô tả ngắn",
+        "description": "Mô tả đầy đủ",
+        "teachingStyle": "Phong cách giảng dạy",
+        "content": "Môn học/Nội dung",
+        "videoLink": "Liên kết video"
+      }
+    },
+    "classes": {
+      "title": "Quản lý lớp học",
+      "subtitle": "Quản lý và giám sát tất cả lớp học và lịch trình",
+      "addNew": "Thêm lớp học mới",
+      "stats": {
+        "total": "Tổng số lớp",
+        "active": "Đang hoạt động",
+        "inactive": "Không hoạt động",
+        "totalEnrolled": "Tổng số đã đăng ký"
+      },
+      "filters": {
+        "searchPlaceholder": "Tìm kiếm lớp theo tên, gia sư hoặc môn học...",
+        "filterByStatus": "Lọc theo trạng thái"
+      },
+      "status": {
+        "all": "Tất cả trạng thái",
+        "active": "Đang hoạt động",
+        "inactive": "Không hoạt động"
+      }
+    },
+    "certificates": {
+      "title": "Quản lý chứng chỉ",
+      "subtitle": "Xem xét và phê duyệt đơn nộp chứng chỉ của gia sư",
+      "stats": {
+        "total": "Tổng số đơn",
+        "pending": "Chờ xem xét",
+        "approved": "Đã phê duyệt",
+        "rejected": "Đã từ chối"
+      },
+      "status": {
+        "pending": "Chờ xử lý",
+        "approved": "Đã phê duyệt",
+        "rejected": "Đã từ chối"
+      },
+      "actions": {
+        "approve": "Phê duyệt",
+        "reject": "Từ chối",
+        "download": "Tải xuống",
+        "viewDetails": "Xem chi tiết"
+      }
+    },
+    "calendar": {
+      "title": "Quản lý lịch",
+      "subtitle": "Xem và quản lý lịch trình khóa học và sự kiện"
+    }
+  },
+  "development": {
+    "banner": "Đang Phát Triển",
+    "stayTuned": "Theo Dõi",
+    "stayTunedDescription": "Chúng tôi đang nỗ lực để mang đến tính năng này cho bạn. Hãy quay lại kiểm tra sớm!",
+    "whatsComingTitle": "Điều Gì Sắp Tới",
+    "developmentTimelineTitle": "Lộ Trình Phát Triển",
+    "backButton": "Quay Lại",
+    "goBackButton": "Quay Lại",
+    "phases": {
+      "completed": "Hoàn Thành",
+      "inProgress": "Đang Tiến Hành",
+      "planned": "Kế Hoạch"
+    },
+    "courses": {
+      "title": "Khóa Học Sắp Ra Mắt",
+      "description": "Chúng tôi đang xây dựng thư viện khóa học tuyệt vời để giúp bạn thành thạo việc luyện thi SAT. Các bài học tương tác, video hướng dẫn và lộ trình học tập cá nhân hóa đang trên đường!",
+      "features": {
+        "interactiveLessons": "Bài học đa phương tiện tương tác với giải thích từng bước",
+        "expertInstructors": "Các chuyên gia luyện thi SAT được chứng nhận với nhiều năm kinh nghiệm giảng dạy",
+        "adaptiveLearning": "Khóa học thích ứng điều chỉnh theo tốc độ học của bạn",
+        "videoTutorials": "Video hướng dẫn cho các chủ đề phức tạp",
+        "personalizedPaths": "Lộ trình học tập cá nhân hóa dựa trên điểm yếu của bạn",
+        "progressTracking": "Theo dõi tiến độ và phân tích hiệu suất"
+      },
+      "phases": {
+        "courseStructure": {
+          "name": "Cấu Trúc Khóa Học & Nội Dung",
+          "description": "Phát triển chương trình giảng dạy và kế hoạch bài học"
+        },
+        "interactiveFeatures": {
+          "name": "Tính Năng Tương Tác",
+          "description": "Thêm các câu hỏi, theo dõi tiến độ và trò chơi hóa"
+        },
+        "launchBeta": {
+          "name": "Ra Mắt & Thử Nghiệm Beta",
+          "description": "Phát hành cho người dùng đầu tiền để nhận phản hồi"
+        }
+      },
+      "ctaButtons": {
+        "takePracticeTests": "Làm Bài Kiểm Tra Thực Hành",
+        "getNotified": "Nhận Thông Báo"
+      }
+    },
+    "practice": {
+      "title": "Chế Độ Thực Hành Sắp Ra Mắt",
+      "description": "Chúng tôi đang tạo ra một môi trường thực hành hấp dẫn nơi bạn có thể rèn luyện kỹ năng với các bài tập có mục tiêu, phản hồi tức thì và mức độ khó thích ứng.",
+      "features": {
+        "targetedExercises": "Bài tập thực hành có mục tiêu cho các chủ đề SAT cụ thể",
+        "instantFeedback": "Phản hồi tức thời với giải thích chi tiết",
+        "adaptiveDifficulty": "Mức độ khó thích ứng điều chỉnh theo trình độ kỹ năng của bạn",
+        "spacedRepetition": "Hệ thống lặp lại có khoảng cách để ghi nhớ tốt hơn",
+        "performanceAnalytics": "Phân tích hiệu suất và xác định khu vực yếu",
+        "gamification": "Học tập trò chơi hóa với thành tựu và chuỗi"
+      },
+      "phases": {
+        "questionBank": {
+          "name": "Phát Triển Ngân Hàng Câu Hỏi",
+          "description": "Tạo cơ sở dữ liệu câu hỏi thực hành toàn diện"
+        },
+        "adaptiveAlgorithm": {
+          "name": "Thuật Toán Thích Ứng",
+          "description": "Xây dựng hệ thống điều chỉnh độ khó thông minh"
+        },
+        "gamificationFeatures": {
+          "name": "Tính Năng Trò Chơi Hóa",
+          "description": "Thêm thành tựu, chuỗi và phần thưởng tiến độ"
+        }
+      },
+      "ctaButtons": {
+        "takeFullTests": "Làm Bài Kiểm Tra Đầy Đủ",
+        "exploreFeatures": "Khám Phá Tính Năng Khác"
+      }
+    }
+  }
+}

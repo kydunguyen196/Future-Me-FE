@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/logo.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Future Me</title>
+    <!-- Meta tags mặc định (sẽ bị Helmet ghi đè khi cần) -->
+    <meta property="og:title" content="Kết quả SAT Practice Test" />
+    <meta property="og:description" content="Xem kết quả bài kiểm tra của tôi" />
+    <meta property="og:image" content="https://testooslab105.oss-cn-hongkong.aliyuncs.com/default-image.jpg" />
+    <meta property="og:url" content="https://futureme.com.vn/test-result" />
+    <!-- Script Facebook SDK -->
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v19.0&appId=24324115763860718&autoLogAppEvents=1" nonce="YOUR_NONCE"></script>
+    <!-- Script inject biến môi trường (tùy chọn, hiện tại không cần thiết do Helmet xử lý) -->
+    <script>
+      window.env = {
+        VITE_BASE_URL: import.meta.env.VITE_BASE_URL || 'https://futureme.com.vn',
+        VITE_DEFAULT_IMAGE_URL: import.meta.env.VITE_DEFAULT_IMAGE_URL || 'https://testooslab105.oss-cn-hongkong.aliyuncs.com/default-image.jpg',
+      };
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
