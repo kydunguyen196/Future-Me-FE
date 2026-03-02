@@ -13,7 +13,7 @@ interface PayOSModalProps {
   remainingTrials: number;
 }
 
-export function PayOSModal({ isOpen, onClose, onPaymentSuccess, remainingTrials }: PayOSModalProps) {
+export function PayOSModal({ isOpen, onClose, remainingTrials }: PayOSModalProps) {
   const { t } = useTranslation();
   const [isProcessing, setIsProcessing] = useState(false);
 

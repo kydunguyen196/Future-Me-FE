@@ -1,54 +1,86 @@
-# React + TypeScript + Vite
+# Future Me FE
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Frontend của dự án Future Me, xây dựng bằng React + TypeScript + Vite.
 
-Currently, two official plugins are available:
+## 1. Yêu cầu môi trường
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Node.js `>= 20`
+- npm `>= 10`
+- Git
 
-## Expanding the ESLint configuration
+Kiểm tra nhanh:
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
-
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+```bash
+node -v
+npm -v
+git --version
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## 2. Clone source từ Git
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
+```bash
+git clone <YOUR_REPO_URL>
+cd future-me-fe
 ```
+
+## 3. Cài đặt dependencies
+
+```bash
+npm install
+```
+
+## 4. Cấu hình biến môi trường
+
+Tạo file `.env` ở thư mục gốc project và cấu hình các biến sau:
+
+```env
+VITE_IS_PRODUCTION=
+VITE_BACKEND_API=
+VITE_ASSETS_URL=
+VITE_GOOGLE_CLIENT_ID=
+VITE_GOOGLE_REDIRECT_URI=
+VITE_BASE_URL=
+VITE_DEFAULT_IMAGE_URL=
+VITE_FACEBOOK_APP_ID=
+```
+
+## 5. Chạy project local
+
+```bash
+npm run dev
+```
+
+Mặc định Vite chạy tại: `http://localhost:5173`
+
+## 6. Build production
+
+```bash
+npm run build
+```
+
+## 7. Chạy bản build local (preview)
+
+```bash
+npm run preview
+```
+
+## 8. Scripts có sẵn
+
+- `npm run dev`: chạy môi trường development
+- `npm run build`: type-check + build production
+- `npm run lint`: chạy ESLint
+- `npm run preview`: chạy preview bản build
+
+## 9. Quy trình Git cơ bản
+
+```bash
+git checkout -b feature/<ten-nhanh>
+git add .
+git commit -m "feat: <noi-dung-thay-doi>"
+git push origin feature/<ten-nhanh>
+```
+
+## 10. Trạng thái kiểm tra hiện tại
+
+- `npm run build`: pass
+- `npm run lint`: chưa pass toàn bộ, hiện còn nhiều lỗi lint cũ trong codebase

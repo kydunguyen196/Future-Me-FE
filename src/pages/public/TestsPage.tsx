@@ -6,7 +6,7 @@ import { Badge } from '@/components/ui/badge';
 import { PayOSModal } from '@/components/ui/PayOSModal';
 import { 
   hasTrialsRemaining, 
-  useTrial, 
+  consumeTrial, 
   getRemainingTrials, 
   isPaidUser 
 } from '@/utils/trialManager';
@@ -52,7 +52,7 @@ export function TestsPage() {
     }
 
     if (hasTrialsRemaining()) {
-      const newTrialData = useTrial();
+      const newTrialData = consumeTrial();
       setRemainingTrials(newTrialData.remainingTrials);
       return true;
     } else {

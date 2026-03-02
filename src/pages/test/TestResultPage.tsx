@@ -4,6 +4,7 @@ import { Helmet } from 'react-helmet';
 import { useTranslation } from 'react-i18next';
 import TestResultScreen from '../../components/test/TestResultScreen';
 import api from '@/lib/axios';
+import { toast } from 'react-toastify';
 
 // Types for API response matching the new response.data format
 interface ApiAnswer {
@@ -571,7 +572,7 @@ const TestResultPage: React.FC = () => {
   if (!examId) return;
 
   try {
-    const baseUrl = process.env.VITE_BASE_URL || 'https://futureme.com.vn'; // Sử dụng process.env thay vì import.meta.env
+    const baseUrl = import.meta.env.VITE_BASE_URL || 'https://futureme.com.vn';
     const shareUrl = `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(
       `${baseUrl}/test-result/${examId}`
     )}`;
@@ -588,7 +589,7 @@ const TestResultPage: React.FC = () => {
 
   const totalScore = resultData.totalScore || 0;
   const readingScore = resultData.moduleScores && Array.isArray(resultData.moduleScores)
-    ? resultData.moduleScores.find(m => m.module === 'Reading & Writing')?.score || 0
+    ? resultData.moduleScores.find((m: { module: string; score: number }) => m.module === 'Reading & Writing')?.score || 0
     : 0;
 
   return (

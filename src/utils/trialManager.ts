@@ -37,7 +37,7 @@ export const saveTrialData = (data: TrialData): void => {
   }
 };
 
-export const useTrial = (): TrialData => {
+export const consumeTrial = (): TrialData => {
   const currentData = getTrialData();
   const newData: TrialData = {
     remainingTrials: Math.max(0, currentData.remainingTrials - 1),

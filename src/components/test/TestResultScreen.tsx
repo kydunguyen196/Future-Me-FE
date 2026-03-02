@@ -281,8 +281,6 @@ const TestResultScreen: React.FC<TestResultScreenProps> = ({
   statisticsData,
   onReturnToTests,
   onRetakeTest,
-  onDownloadReport,
-  onShareOnFacebook,
 }) => {
   const navigate = useNavigate();
   const [activeTab, setActiveTab] = useState<'overview' | 'detailed'>('overview');
@@ -497,9 +495,9 @@ const TestResultScreen: React.FC<TestResultScreenProps> = ({
         style: {
           transform: 'scale(1)', // Tăng độ phân giải
         },
-        filter: (node) => {
+        filter: (node: Node) => {
           // Bỏ qua iframe và các phần tử không mong muốn
-          return !node.tagName || node.tagName.toLowerCase() !== 'iframe';
+          return !(node instanceof HTMLElement) || node.tagName.toLowerCase() !== 'iframe';
         },
       };
 
